@@ -1,7 +1,7 @@
 ---
 title: "EGT204: EĞİTİMDE ARAŞTIRMA YÖNTEMLERİ"
 subtitle: "Ders Iceriği"
-date: "Bahar - 2023"
+date: "Guz - 2024"
 output:
   html_document:
     toc: true
@@ -31,7 +31,7 @@ advdate <- function(obj, adv) {
  tmp <- paste("Hafta ",zadv,sep='',", ", tmon)
  return(tmp)
 }
-mon <- ymd(20230301)
+mon <- ymd(20241004)
 
 ```
 
@@ -39,8 +39,8 @@ mon <- ymd(20230301)
 
 |                                        |                                |
 |----------------------------------------|--------------------------------|
-| **email:** kkatalay\@gmail.com         | **Sinif:** Zoom             |
-| **Ofis saatleri:** Cuma 10:00-12:00    | **Saat:**  08:40/10:30 - 12:30         |
+| **email:** kkatalay\@gmail.com         | **Sinif:** B9Z03             |
+| **Ofis saatleri:** Cuma 10:00-12:00    | **Saat:**  10:40-12:30         |
 | **Ofis:** "Eğitim Bilimleri Enstitüsü" |                                |
 
 
@@ -68,11 +68,6 @@ Dersler "Ders Planı" başlığı altındaki sıralamaya göre işlenecektir. Be
 
 
 -   **50% Derse Katılım ve Ödevler**
-
-    Derslere katılımınız zoom kayıtlarından alınabilmektedir. Ayrıca derste online olan ancak iletisim kurulamayan kisiler derste yok sayılacaktır.
-    
-    Bu derste değerlendirme haftalık yapılacak değerlendirmelerle sağlanacaktır.
-
 -   **50% Genel Sınav**
 
 
@@ -94,7 +89,8 @@ Dersler "Ders Planı" başlığı altındaki sıralamaya göre işlenecektir. Be
 ```
 # Ders Planı
 
-
+* belirtilen tarihlerde değişiklikler olabilir.
+sizlere gelen bildirimleri takip ediniz.
 
 ## `r advdate(mon, 2)`:[Bilimsel Araştırma Temel Kavramlar](sunum/03.html)
 
@@ -127,7 +123,6 @@ Dersler "Ders Planı" başlığı altındaki sıralamaya göre işlenecektir. Be
 -   Ölçmede Hata
 -   Ölçme Aracının Sahip Olması Gereken Özellikler
 -   Korelasyon
--   **ODEV-I (+) Literatür Tarama**
 
 
 ## `r advdate(mon, 6)`: [Örnekleme Yöntemleri](sunum/06.html)
@@ -153,7 +148,6 @@ Dersler "Ders Planı" başlığı altındaki sıralamaya göre işlenecektir. Be
 -   Gözlem formları
 -   Görüşme formları
 -   Çevirim için veri toplama araçları
--   **ODEV-IV (++) Çevirim içi Anket Hazırlama**
 
 
 ## `r advdate(mon, 10)`: [Nicel Araştırmalar I](sunum/10.html)
@@ -186,7 +180,6 @@ Dersler "Ders Planı" başlığı altındaki sıralamaya göre işlenecektir. Be
 -   Nicel Veri Özetleme Teknikleri
 -   Merkezi Eğilim ve Dağılım Ölçüleri
 -   Korelasyon Frekans Tablosu ve Grafikler
--   **ODEV-V (+) Uygulanmış Bir Anket Analizi**
 
 
 
