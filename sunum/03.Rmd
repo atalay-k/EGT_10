@@ -2,7 +2,7 @@
 title: "EGİTİMDE ARAŞTIRMA YÖNTEMLERİ"
 subtitle: " <br> `r emo::ji('graph')` Bilimsel Araştırmaya Giriş"
 author: "<br> <br> `r emo::ji('woman_teacher')` Dr. Kübra ATALAY KABASAKAL <br> Hacettepe Üniversitesi"
-date: "2023 BAHAR <br> <br> <br> <br>`r emo::ji('e-mail')` katalay@hacettepe.edu.tr"
+date: "2024 Güz <br> <br> <br> <br>`r emo::ji('e-mail')` katalay@hacettepe.edu.tr"
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -465,7 +465,7 @@ knitr::include_graphics("img/bilimislev.PNG")
 ---
 ## Bilimsel Araştırmanının Temelleri
 
-
+.small[
 Bilimsel Araştırma 
 
 -  Geçerli bir **soruna** dayanmalıdır
@@ -479,11 +479,6 @@ Bilimsel Araştırma
 - Araştırma **yöntemi** tespit edilmelidir.
 
 --
-
-
-
---
-
 - Kuramsal yapısı, değişkenleri ve **değişkenler arasındaki muhtemel ilişkiler** belirlenmelidir.
 
 --
@@ -497,6 +492,7 @@ Bilimsel Araştırma
 --
 
 - Toplanan verilerin çeşitli **analiz teknikleri ile analiz edilerek yorumlanması ve sonuçların raporlanarak** ilgili bilim caiması ile paylaşılması gerekir. 
+]
 
 ---
 ## Bilimsel Araştırmanının Amaçları
