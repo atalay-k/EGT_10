@@ -39,7 +39,8 @@ mon <- ymd(20241004)
 
 |                                        |                                |
 |----------------------------------------|--------------------------------|
-| **email:** kkatalay\@gmail.com         | **Sinif:** B9Z03             |
+| **email:** kkatalay\@gmail.com         |  katalay@hacettepe.edu.tr |
+                | **Sinif:** B9Z03             |
 | **Ofis saatleri:** Cuma 10:00-12:00    | **Saat:**  10:40-12:30         |
 | **Ofis:** "Eğitim Bilimleri Enstitüsü" |                                |
 
@@ -67,21 +68,28 @@ Dersler "Ders Planı" başlığı altındaki sıralamaya göre işlenecektir. Be
 # Notlandırma
 
 
--   **50% Derse Katılım ve Ödevler**
--   **50% Genel Sınav**
+-   `r emo::ji("notebook")`  **50% Derse Katılım ve Ödevler**
+-   `r emo::ji("notebook")` **50% Genel Sınav**
 
+- `r emo::ji("warning")`  Ders sonunda hazırladığınız proje ile 
+`r emo::ji("link")`[TUBITAK 2209-A - Üniversite Öğrencileri Araştırma Projeleri Destekleme Programı'na başvurabilirsiniz.](https://www.tubitak.gov.tr/tr/burslar/lisans/burs-programlari/icerik-2209-a-universite-ogrencileri-arastirma-projeleri-destekleme-programi)
 
 # Okuma Listesi
 
--   Büyüköztürk, Ş., Çakmak E. K., Akgün, Ö. E., Karadeniz, Ş., Demirel, F. (2020). Eğitimde Bilimsel Araştırma Yöntemleri (28. Baskı), Pegema Yayıncılık.
+-   `r emo::ji("book")` Büyüköztürk, Ş., Çakmak E. K., Akgün, Ö. E., Karadeniz, Ş., Demirel, F. (2020). Eğitimde Bilimsel Araştırma Yöntemleri (28. Baskı), Pegema Yayıncılık.
 
--   Ocak, G. (2019). Eğitimde Bilimsel Araştırma Yöntemleri. Pegema Yayıncılık.
+-   `r emo::ji("book")`Ocak, G. (2019). Eğitimde Bilimsel Araştırma Yöntemleri. Pegema Yayıncılık.
 
--   Çetin, B., İlhan, M. ve Şahin, M. G. (2021). Eğitimde Araştırma Yöntemleri: Temel Kavramlar, İlkeler ve Süreçler, Pegem Akademi.
+- `r emo::ji("book")` Arık, R. S. ve Yılmaz, K. (2019). Eğitimde Bilimsel Araştırma Yöntemleri. Pegema Akademi.
 
--   Frankel, J. R.; Wallen, N. E. & Hyun, H. H. (2012). How to Design and Evaluate Research in Education (8th Edition). McGraw Hill International.
+-   `r emo::ji("book")` Çetin, B., İlhan, M. ve Şahin, M. G. (2021). Eğitimde Araştırma Yöntemleri: Temel Kavramlar, İlkeler ve Süreçler, Pegem Akademi.
 
--   Creswell, J. W. (2012) Educational Research Planning, Conducting and Evaluating Quantitative and Qualitative Research (4th Edition). Pearson Education.
+-   `r emo::ji("book")` Frankel, J. R.; Wallen, N. E. & Hyun, H. H. (2012). How to Design and Evaluate Research in Education (8th Edition). McGraw Hill International.
+
+-   `r emo::ji("book")` Creswell, J. W. (2012) Educational Research Planning, Conducting and Evaluating Quantitative and Qualitative Research (4th Edition). Pearson Education.
+
+- `r emo::ji("paper")` Aydın, A., Sarıer, Y., & Uysal, Ş. (2012). Sosyoekonomik ve Sosyokültürel Değişkenler Açısından PISA Matematik Sonuçlarının Karşılaştırılması. Eğitim ve Bilim, 37(164), 20-29 . http://eb.ted.org.tr/index.php/EB/article/view/219/360 adresinden erişildi. 
+
 
 ```{=tex}
 \clearpage
@@ -115,7 +123,7 @@ sizlere gelen bildirimleri takip ediniz.
   -   Tanımlar, Kısaltmalar
 
 
-## `r advdate(mon, 5)`:[Ölçmede Temel Kavramlar](sunum/02.html)
+## `r advdate(mon, 4)`:[Ölçmede Temel Kavramlar](sunum/02.html)
 -   Ölçme Nedir?
 -   Ölçüm Nedir?
 -   Ölçek Nedir?
@@ -125,7 +133,7 @@ sizlere gelen bildirimleri takip ediniz.
 -   Korelasyon
 
 
-## `r advdate(mon, 6)`: [Örnekleme Yöntemleri](sunum/06.html)
+## `r advdate(mon, 5)`: [Örnekleme Yöntemleri](sunum/06.html)
 
 
 -   Evren - Örneklem Tanımı Örnekleme Nedir?
@@ -134,7 +142,7 @@ sizlere gelen bildirimleri takip ediniz.
 -   Örneklem Büyüklüğü
 -   Örnekleme Hatası
 
-## `r advdate(mon, 8)`: [Veri Toplama Araçları I](sunum/08.html)
+## `r advdate(mon, 6)`: [Veri Toplama Araçları I](sunum/08.html)
 
 - Veri Toplama Araçları
 - Anket
@@ -162,7 +170,7 @@ sizlere gelen bildirimleri takip ediniz.
 -   Nedensel Araştırma
 -   Deneysel Araştırmalar ve Türleri
 
-## `r advdate(mon, 13)`: [Nitel Araştırmalar I](sunum/12.html)
+## `r advdate(mon, 12)`: [Nitel Araştırmalar I](sunum/12.html)
 
 -   Nicel ve Nitel Araştırma Farkları
 -   Nitel Araşatırma Aşamaları
@@ -171,7 +179,7 @@ sizlere gelen bildirimleri takip ediniz.
 -   Eylem Araştırması
 -   Durum Araştırması
 
-## `r advdate(mon, 12)`: [Verilerin Analizi](sunum/13.html)
+## `r advdate(mon, 13)`: [Verilerin Analizi](sunum/13.html)
 
 -   Parametre Nedir?
 -   İstatistik Nedir?
@@ -184,7 +192,7 @@ sizlere gelen bildirimleri takip ediniz.
 
 
 
-## `r advdate(mon, 15)`: [Araştırma Raporu Hazırlama, Araştırma ve Yayın Etiği](sunum/14.html)
+## `r advdate(mon, 14)`: [Araştırma Raporu Hazırlama, Araştırma ve Yayın Etiği](sunum/14.html)
 
 -   Rapor hazırlamada dikkat edilecek hususlar
 -   Araştırma türlerine göre rapor örnekleri
