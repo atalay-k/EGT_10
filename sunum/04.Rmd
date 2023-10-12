@@ -2,7 +2,7 @@
 title: " EGİTİMDE ARAŞTIRMA YÖNTEMLERİ"
 subtitle: " <br> `r emo::ji('graph')` Probleminin Tanımlanması I"
 author: "<br> <br> `r emo::ji('woman_teacher')` Dr. Kübra ATALAY KABASAKAL <br> Hacettepe Üniversitesi"
-date: "2023 BAHAR <br> <br> <br> <br>`r emo::ji('e-mail')` katalay@hacettepe.edu.tr"
+date: "2023-2024 Güz <br> <br> <br> <br>`r emo::ji('e-mail')` katalay@hacettepe.edu.tr"
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -268,7 +268,7 @@ l <- DiagrammeR::mermaid("
 
 ----
 
-Not: Yukarıdaki başlıklar problem tanımlamanın başlıkları değildir. Tanımlamanın nasıl yapılacağına ilişkin bir yolu göstermektedir.
+.xsmall[Not: Yukarıdaki başlıklar problem tanımlamanın başlıkları değildir. Tanımlamanın nasıl yapılacağına ilişkin bir yolu göstermektedir.]
 
 ---
 ## Araştırma Problemi
@@ -679,4 +679,3 @@ Dergilerde yayınlanan makaleleri tararken, ulusal ya da uluslararası dergileri
 - Büyüköztürk, Ş., Çakmak E. K., Akgün, Ö. E., Karadeniz, Ş., Demirel, F. (2020). *Eğitimde Bilimsel Araştırma Yöntemleri* (28. Baskı), Ankara: Pegema Yayıncılık.
 
 - Ocak, İ. ve Olur, B. (2019). Bilimsel Araştırma Süreci: Giriş. G. Ocak (Edt.), *Eğitimde Bilimsel Araştırma Yöntemleri* içinde (2-61). Ankara: Pegema Yayıncılık. 
-=
