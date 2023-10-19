@@ -100,7 +100,7 @@ Dersler "Ders Planı" başlığı altındaki sıralamaya göre işlenecektir. Be
 * belirtilen tarihlerde değişiklikler olabilir.
 sizlere gelen bildirimleri takip ediniz.
 
-## `r advdate(mon, 2)`:[Bilimsel Araştırma Temel Kavramlar](sunum/03.html)
+## `r advdate(mon, 2)`:[Bilimsel Araştırma Temel Kavramlar](sunum/01_temeller.html)
 
 -   Bilgi Nedir? Bilgi Edinme Yolları Nelerdir?
 -   Bilim Nedir?
@@ -109,11 +109,11 @@ sizlere gelen bildirimleri takip ediniz.
 
 ## `r advdate(mon, 3)`: Araştırma Problemin Tanımlanması 
 
-- [Probleminin Tanımlanması I](sunum/04.html)
+- [Probleminin Tanımlanması I](sunum/ProblemI.html)
   -   İyi bir araştırma probeliminin sahip olması gereken özellikler
   -   Problem ve alt problemler
   -   Literatur Taraması
-- [Probleminin Tanımlanması II](sunum/05.html)
+- [Probleminin Tanımlanması II](sunum/ProblemII.html)
   -   Değişken nedir?
   -   Değişken Sınıflaması
   -   Hipotez Nedir?
