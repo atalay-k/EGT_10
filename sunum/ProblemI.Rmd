@@ -252,22 +252,13 @@ l <- DiagrammeR::mermaid("
 ## Araştırma problemini nasıl tanımlarız?
 
 **Giriş bilgisi:**  Araştırmanın temel değişkeni hakkında genel bilgiler verilerek probleminin bağlamı ve neden önemli olduğu açıklanır.  
-
 ----
-
 **Gelişme (detaylandırılması):** Çalışmanın kuramsal çerçevesi ve ilgili araştırmalar özetlenir. İlgili çalışmaların sonuçları tartışılarak sunulur. Konu sınırlandırılarak önemli görülen araştırmalar daha detaylı sunulur. 
-
 ----
-
 **Bilgileri özetleme:** Sınırlandırılan konuya ilişkin çalışmaların sonuçları özlüce sunulur.     
-
 ----
-
-
 **Problem durumuna işaret etme:** Cevabı aranılan problem tanımlanır. Neyin araştırılacağı kısaca açıklanır. Araştırmanın amacına işaret eden problem cümlesi oluşturulur. 
-
 ----
-
 .xsmall[Not: Yukarıdaki başlıklar problem tanımlamanın başlıkları değildir. Tanımlamanın nasıl yapılacağına ilişkin bir yolu göstermektedir.]
 
 ---
@@ -536,7 +527,6 @@ Araştırmanın **önemini belirlemeye katkı sağlar.**
 - Daha önce yapılan benzeri araştırmalar,  araştırmanın **yönteminin geliştirilmesine ışık tutar.**  
 
 - Yapılacak araştırmanın **sonuçlarının yorumlanmasına** yardımcı olur. 
-
 - Literatür taramasıyla ulaşılan kuramsal bilgiler ve önceki araştırmaların sonuçları,  araştırma **sonuçlarını yorumlamada ölçüt** olarak kullanılır.
 
 
@@ -636,23 +626,23 @@ Araştırma sonucunda ne bulunmuş?
 
 
 ---
+.small[
+
+<br>
 |Anahtar Sözcük:  | Değerlendirme tercihleri   |
 |---|---|
-|Kim yapmış?| Şener Büyüköztürk Yasemin Gülbahar |
-|Niçin yapılmış?| Yükseköğretim öğrencilerinin değerlendirme tercihlerini belirleyerek, tercihlerde gözlenen farkların bölüm ve sınıf değişkenlerine göre farklılaşıp farklılaşmadığını incelemek.|
-|Nasıl yapılmış?| Karşılaştırmalı desen kullanılmış. Bir vakıf üniversitesinde , 476  gönüllü öğrenci üzerinde yapılmış. Değerlendirme tercihleri ölçeği ve analiz için MANOVA kullanılmış.|
-|Ne bulunmuş?| Öğrenciler bir yandan klasik ölçme-değerlendirme yöntemlerini (çoktan seçmeli test) dışta bırakmamakla birlikte, özellikle dönüt alma imkanı buldukları, sürecin de kapsandığı, aktif olabilecekleri, alternatif yöntemlerini daha fazla tercih etmektedirler. Sınıf ve bölüme göre oluşan alt grupların değerlendirme tercihleri arasında birkaç boyutta fark görülse dahi, etki büyüklüğü oldukça düşük çıkmış. |
-
+|**Kim yapmış?**| Şener Büyüköztürk Yasemin Gülbahar |
+|**Niçin yapılmış?**| Yükseköğretim öğrencilerinin değerlendirme tercihlerini belirleyerek, tercihlerde gözlenen farkların bölüm ve sınıf değişkenlerine göre farklılaşıp farklılaşmadığını incelemek.|
+|**Nasıl yapılmış?**| Karşılaştırmalı desen kullanılmış. Bir vakıf üniversitesinde, 476  gönüllü öğrenci üzerinde yapılmış. Değerlendirme tercihleri ölçeği ve analiz için MANOVA kullanılmış.|
+|**Ne bulunmuş?**| Öğrenciler bir yandan klasik ölçme-değerlendirme yöntemlerini (çoktan seçmeli test) dışta bırakmamakla birlikte, özellikle dönüt alma imkanı buldukları, sürecin de kapsandığı, aktif olabilecekleri, alternatif yöntemlerini daha fazla tercih etmektedirler. Sınıf ve bölüme göre oluşan alt grupların değerlendirme tercihleri arasında birkaç boyutta fark görülse dahi, etki büyüklüğü oldukça düşük çıkmış. |
+|**Kaynak** | Büyüköztürk, Ş. & Gülbahar, Y. (2010). Assessment preferences of higher education students. Egitim Arastirmaları-Eurasian Journal of Educational Research, 41, 55-72|
+]
 ---
 
 
 
    
-     
-     
-|Anahtar Sözcük:  Değerlendirme tercihleri |   
-|---|
-|Büyüköztürk, Ş. & Gülbahar, Y. (2010). Assessment preferences of higher education students. Egitim Arastirmaları-Eurasian Journal of Educational Research, 41, 55-72|
+    
 
 ---
 ## Anahtar Kelimelerin Belirlenmesi

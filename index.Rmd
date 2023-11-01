@@ -122,6 +122,8 @@ sizlere gelen bildirimleri takip ediniz.
   -   Sayıltı ve Sınırlılık
   -   Tanımlar, Kısaltmalar
 
+=> ODEV I - 10 puan
+
 
 ## `r advdate(mon, 4)`:[Ölçmede Temel Kavramlar](sunum/02.html)
 -   Ölçme Nedir?

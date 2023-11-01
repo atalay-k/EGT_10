@@ -48,14 +48,6 @@ library(emoji)
 library(xaringanthemer)
 library(dplyr)
 
-style_duo_accent(
-  primary_color      = "#0F4C81", # pantone classic blue
-  secondary_color    = "#B6CADA", # pantone baby blue
-  header_font_google = google_font("Raleway"),
-  text_font_google   = google_font("Raleway", "300", "300i"),
-  code_font_google   = google_font("Source Code Pro"),
-  text_font_size     = "30px"
-)
 ```
 
 ---
@@ -136,6 +128,7 @@ widgetframe::frameWidget(l1)
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
 library(magrittr)
+library(dplyr)
 library(gt)
 tx_names <- data.frame(
 Değişken_Sınıfı=c("Nicel","Nitel","Sürekli","Süreksiz","Bağımlı","Bağımsız"),
@@ -172,8 +165,9 @@ tx_names %>%
 ---
 
 .center[
-```{r echo=FALSE, message=FALSE, warning=FALSE}
 
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+library(dplyr)
 tx_names1 <- data.frame(
 Bağımsız_Değişken=c(
 "Mezuniyet Düzeyi (Nitel, süreksiz)",
@@ -186,14 +180,15 @@ Bağımlı_Değişken=c(
 "Matematik Başarısı (Nicel, sürekli)",
 "Eğitim Alanı (Nitel, süreksiz) "))
 
+
 tx_names1 %>% 
   gt::gt() %>% 
     tab_header(
     title = md("**Değişken Türleri**"))
 
 ```
-]
 
+]
 ---
 
 .center[
@@ -261,71 +256,65 @@ Alt amaç soru cümlesi;
 
 
 ---
-## Örnek-1
+
+## **Örnek-1** 
+
 
 - Sınıf öğretmenlerinin gelişim dosyası (portfolyo), performans değerlendirme ve dereceli puanlama anahtarı (rubrik) kullanabilme yeterlikleri nelerdir?
 
---
+.small[
+1. Sınıf öğretmenleri geleneksel ve alternatif ölçme araçlarını **ne sıklıkla
+kullanmaktadırlar?**
 
-	1- Sınıf öğretmenlerinin gelişim dosyası (portfolyo), performans 	değerlendirme ve dereceli puanlama anahtarı (rubrik) 	kullanabilme yeterlikleri nasıl bir dağılım göstermektedir? 
-	
---
+2. Sınıf öğretmenlerinin geleneksel ve alternatif ölçme araçlarının **zaman boyutu
+açısından kullanımı hakkındaki görüşleri nelerdir?**
 
-	2- Sınıf öğretmenlerinin gelişim dosyası (portfolyo), performans 	değerlendirme ve dereceli puanlama anahtarı (rubrik) kullanım 	sıklıkları nasıldır? 
+3. Sınıf öğretmenlerinin geleneksel ve alternatif ölçme araçlarının **ekonomik
+boyutu açısından kullanımı hakkındaki görüşleri nelerdir?**
 
---
+4. Sınıf öğretmenlerinin geleneksel ve alternatif ölçme araçlarının **sınıf mevcudu
+boyutu açısından kullanımı hakkındaki görüşleri nelerdir?**
 
-	3- Sınıf öğretmenlerinin karşılaştıkları ölçme ve değerlendirme ile 	ilgili sorunların çözüm önerileri nelerdir?    (Acar, 2008). 
+5. Sınıf öğretmenlerinin geleneksel ve alternatif ölçme araçlarının **uygulama
+boyutu açısından kullanımı hakkındaki görüşleri nelerdir?**  `r emo::ji("link")`[(Acar, 2008)](https://dergipark.org.tr/en/download/article-file/146332). 
 
+]
 
 ---
-## Örnek-2
+
+## **Örnek-2** 
 
 - Farklı ilköğretim okullarında görev yapan öğretmenlerin uygulamada ağırlığını gördüğümüz kontrol yaklaşımlarının çeşitli değişkenlerle ilişkisi var mıdır?
 
-	1. Öğretmenlerin sınıflarındaki kontrolü hangi düzeydedir?
-	
---
+.small[
+1. Öğretmenlerin sınıflarındaki **kontrolü hangi düzeydedir?**
 
-	2. Öğretmenlerin sınıflarındaki kontrol düzeyleri ile cinsiyet ve  	yaş değişkenleri arasında fark var mıdır?
+2. Öğretmenlerin sınıflarındaki kontrol **düzeyleri ile cinsiyet ve  	yaş değişkenleri arasında fark var mıdır?**
 
---
+3. Öğretmenlerin sınıflarındaki kontrol düzeyleri ile **mesleki 	deneyimleri arasında fark var mıdır?**
 
-	3. Öğretmenlerin sınıflarındaki kontrol düzeyleri ile mesleki 	deneyimleri arasında fark var mıdır?
+4. Öğretmenlerin sınıflarındaki kontrol düzeyleri ile **sınıf 	mevcutları arasında fark var mıdır?**5. Öğretmenlerin sınıflarındaki **kontrol düzeyleri ile alanları 	(branşları) arasında fark var mıdır?**
 
---
-
-	4. Öğretmenlerin sınıflarındaki kontrol düzeyleri ile sınıf 	mevcutları arasında fark var mıdır?
-
---
-
-	5. Öğretmenlerin sınıflarındaki kontrol düzeyleri ile alanları 	(branşları) arasında fark var mıdır?
-
---
-
-	6. Öğretmenlerin sınıflarındaki kontrol düzeyleri ile okuttukları 	sınıf seviyeleri arasında fark var mıdır? (Yılmaz, 2012). 
-
+6. Öğretmenlerin sınıflarındaki kontrol düzeyleri ile **okuttukları 	sınıf seviyeleri arasında fark var mıdır?** `r emo::ji("link")`[(Yılmaz, 2012)](https://openaccess.hacettepe.edu.tr/xmlui/bitstream/handle/11655/1867/676d43e2-a1a6-4dbb-917f-09f4e012c287.pdf?sequence=1&isAllowed=y)
+]
 
 ---
-## Örnek-3
+
+## **Örnek-3** 
 
 - Sınıf öğretmeni adaylarının mikro öğretim uygulaması kapsamında etkileşimli tahta kullanımı ile ilgili görüşleri nelerdir?
 
---
+.small[
+1. Sınıf öğretmeni adaylarının etkileşimli tahta ile **ilgili görüşleri 	nelerdir?**
 
-	1. Sınıf öğretmeni adaylarının etkileşimli tahta ile ilgili görüşleri 	nelerdir?
-	
---
+2. Sınıf öğretmeni adaylarının etkileşimli tahta ile ilgili görüşleri 	**cinsiyete göre farklılık göstermekte midir?**
 
-	2. Sınıf öğretmeni adaylarının etkileşimli tahta ile ilgili görüşleri 	cinsiyete göre farklılık göstermekte midir?
+3. Sınıf öğretmeni adaylarının etkileşimli tahtaları **gelecekteki 	meslek 	ortamlarında kullanma planları nelerdir?**
 
---
+4. Sınıf öğretmeni adaylarının mikro öğretim yönteminin 	**öğretmen eğitimine etki ve katkıları hakkında görüşleri nelerdir?** `r emo::ji("link")`[(Küçükgöz, 2019)](https://openaccess.hacettepe.edu.tr/xmlui/bitstream/handle/11655/6289/Arzuhan%20Beyza%20Ku%cc%88c%cc%a7u%cc%88kgo%cc%88z%20-%20Yu%cc%88ksek%20Lisans%20Tezi.pdf?sequence=1&isAllowed=y)
 
-	3. Sınıf öğretmeni adaylarının etkileşimli tahtaları gelecekteki 	meslek 	ortamlarında kullanma planları nelerdir?
+]
 
---
-
-	4. Sınıf öğretmeni adaylarının mikro öğretim yönteminin 	öğretmen eğitimine etki ve katkıları hakkında görüşleri nelerdir? 	(Küçükgöz, 2019). 
 
 ---
 ## Soru Cümlesi
@@ -341,7 +330,7 @@ Alt amaç soru cümlesi;
 ---
 ## Hipotez (Hipotez Denence)
 
-- Hipotez, bir araştırmanın **olası sonucuna** dair yapılan **tahminlerin** ifadesidir (Fraenkel ve wallen, 2006; Gay vd., 2009; akt: Büyüköztürk vd., 2020). 
+- Hipotez, bir araştırmanın **olası sonucuna** dair yapılan **tahminlerin** ifadesidir (Fraenkel ve Wallen, 2006; Gay vd., 2009; akt: Büyüköztürk vd., 2020). 
 
 
 ---
@@ -351,7 +340,8 @@ Alt amaç soru cümlesi;
 - Hipotezler, hemen her zaman, geniş zamanlı cümlelerle kurulur. Çünkü hipotez genel bir yargı olup, geçmişe bağlı değildir. 
 
 - **Örneğin: **
-- "Bireysel çalışma alışkanlığı, öğrencilerin okuldaki başarılarını artırır," (değişkenler: çalışma alışkanlığı- öğrenim başarısı)
+
+- **Bireysel çalışma alışkanlığı, öğrencilerin okuldaki başarılarını artırır,** (değişkenler: çalışma alışkanlığı- öğrenim başarısı)
 
 ---
 ## Hipotez (Hipotez Denence)
@@ -359,9 +349,9 @@ Alt amaç soru cümlesi;
 
 - *Alternatif (Araştırma) Hipotezi* $H_1$ `r emo::ji('right')` İlişki var, Fark var
 
-  - $H_1 yönsüz$: İlişki var, Fark var
+  - $H_1 \text{yönsüz}$: İlişki var, Fark var
   
-  - $H_1tek yönlü$:): İlişki ya da farkın hangi yönde olduğu hakkında bilgi içerir. 
+  - $H_1\text{tek yönlü}$: İlişki ya da farkın hangi yönde olduğu hakkında bilgi içerir. 
 
 
 
@@ -384,9 +374,9 @@ Alt amaç soru cümlesi;
 
 - Öğrencilerin fen bilimleri ders başarıları okulları arasında anlamlı bir farklılık göstermekte midir? 
 
-- $𝐻_0$: Fen bilimleri ders başarısı okullar arasında anlamlı bir farklılık  *göstermemektedir.*
+- $𝐻_0$: Fen bilimleri ders başarısı okullar arasında anlamlı bir farklılık  **göstermemektedir.**
 
-- $𝐻_1$:  Fen bilimleri ders başarısı okullar arasında anlamlı bir farklılık 	*göstermektedir.*
+- $𝐻_1$:  Fen bilimleri ders başarısı okullar arasında anlamlı bir farklılık 	**göstermektedir.**
 
 
 
@@ -397,25 +387,33 @@ Alt amaç soru cümlesi;
 
 - $𝐻_0$: Öğrencilerin fen bilimleri dersine karşı öz yeterlikleri fen bilimleri başarısını etkilemez
 
-- $𝐻_1yönsüz$:  Öğrencilerin fen bilimleri dersine karşı öz yeterlikleri fen bilimleri başarısını etkiler
+- $H_1 \text{yönsüz}$:  Öğrencilerin fen bilimleri dersine karşı öz yeterlikleri fen bilimleri başarısını etkiler
 
-- $𝐻_1tekyönlü$:  Öğrencilerin fen bilimleri dersine karşı öz yeterlikleri arttıkça, fen bilimleri başarısı yükselir. 
+- $H_1\text{tek yönlü}$:  Öğrencilerin fen bilimleri dersine karşı öz yeterlikleri arttıkça, fen bilimleri başarısı yükselir. 
 
-- $𝐻_1tekyönlü$:  Öğrencilerin fen bilimleri dersine karşı öz yeterlikleri arttıkça, fen bilimleri başarısı düşer. 
+- $H_1\text{tek yönlü}$:  Öğrencilerin fen bilimleri dersine karşı öz yeterlikleri arttıkça, fen bilimleri başarısı düşer. 
+
+---
+
+## Hipotez ne zaman kurulur?
+
+- İstatistiksel hipotezler, araştırmanın verileri analiz edilirken kullanılır. Araştırma raporunda genellikle belirtilmez, ancak araştırmacı hipotez test etmeyi gerektiren bir analiz yapıyorsa, bu hipotezlerin neler olduğunu bilir.
+
+---
+## Hipotez kurma ve test etmenin sağladığı avantajlar nelerdir?
+
+- Araştırmacının çalışmasının olası sonuçları hakkında daha derinlemesine düşünmesini sağlar.
+    
+- Araştırmacının değişkenler arasındaki ilişkileri görmesine yardımcı olur. Eğer değişkenler arasında ilişki yoksa yeniden bir hipotez oluşturmak gerekir.
+    
+- Hipotez kurmak ve test etmek, kuram geliştirmeyi ve var olan kuramların güçlenmesini sağlar. Hipotezler yeni bir kuramın ortaya atılmasını sağlayacağı gibi, var olan kuramların doğru olup olmadığını görmemizi sağlar. Bir kurama dayalı hipotezler doğrulandıkça kuram güçlenir. Hipotezler doğrulanmazsa, kuram yeniden gözden geçirilir. Böylece bilimin gelişmesine katkıda bulunur.
+
+---
+## Hipotez kurmanın dezavantajları var mıdır?
+
+- Araştırmacının hipoteze odaklanmasına ve çalışmasını etkileyecek diğer değişkenleri görmesini engelleyebilir. Deneysel araştırmalarda bağımlı değişkeni etkileyen bir ya da birkaç bağımsız değişken üzerinde çalışılmakta; bazı değişkenler de kontrol edilmektedir. Ancak bağımlı değişken üzerinde etkileyen ve hipotezlerde ele alınmayan başka bağımsız değişkenler de olabilir. Araştırmacı, kendi hipotezlerine odaklanarak diğer değişkenleri gözden kaçırabilir.
 
 
-
-
-<!-- Hipotez nedir? -->
-<!-- Hangi araştırmalarda hipotez kurulur? -->
-<!-- Hipotez kurma ve test etmenin sağladığı avantajlar nelerdir? -->
-<!-- Hipotez kurmanın dezavantajları var mıdır? -->
-<!-- Araştırmacının çalışmasının olası sonuçları hakkında daha derinlemesine düşünmesini sağlar. -->
-<!-- Araştırmacının değişkenler arasındaki ilişkileri görmesine yardımcı olur. Eğer değişkenler arasında ilişki yoksa yeniden bir hipotez oluşturmak gerekir. -->
-<!-- Hipotez kurmak ve test etmek, kuram geliştirmeyi ve var olan kuramların güçlenmesini sağlar. Hipotezler yeni bir kuramın ortaya atılmasını sağlayacağı gibi, var olan kuramların doğru olup olmadığını görmemizi sağlar. Bir kurama dayalı hipotezler doğrulandıkça kuram güçlenir. Hipotezler doğrulanmazsa, kuram yeniden gözden geçirilir. Böylece bilimin gelişmesine katkıda bulunur. -->
-<!-- Araştırmacının hipoteze odaklanmasına ve çalışmasını etkileyecek diğer değişkenleri görmesini engelleyebilir. Deneysel araştırmalarda bağımlı değişkeni etkileyen bir ya da birkaç bağımsız değişken üzerinde çalışılmakta; bazı değişkenler de kontrol edilmektedir. Ancak bağımlı değişken üzerinde etkileyen ve hipotezlerde ele alınmayan başka bağımsız değişkenler de olabilir. Araştırmacı, kendi hipotezlerine odaklanarak diğer değişkenleri gözden kaçırabilir. -->
-
-<!-- İstatistiksel hipotezler, araştırmanın verileri analiz edilirken kullanılır. Araştırma raporunda genellikle belirtilmez, ancak araştırmacı hipotez test etmeyi gerektiren bir analiz yapıyorsa, bu hipotezlerin neler olduğunu bilir -->
 
 
 ---
@@ -444,14 +442,6 @@ Alt amaç soru cümlesi;
 - Açık, basit, anlaşılır ve işlevsel (işe vuruk) bir şekilde ifade edilmiş olmalıdır.
 
 
-<!-- Araştırmacının çalışmasının olası sonuçları hakkında daha derinlemesine düşünmesini sağlar. -->
-<!-- Araştırmacının değişkenler arasındaki ilişkileri görmesine yardımcı olur. Eğer değişkenler arasında ilişki yoksa yeniden bir hipotez oluşturmak gerekir. -->
-<!-- Hipotez kurmak ve test etmek, kuram geliştirmeyi ve var olan kuramların güçlenmesini sağlar. Hipotezler yeni bir kuramın ortaya atılmasını sağlayacağı gibi, var olan kuramların doğru olup olmadığını görmemizi sağlar. Bir kurama dayalı hipotezler doğrulandıkça kuram güçlenir. Hipotezler doğrulanmazsa, kuram yeniden gözden geçirilir. Böylece bilimin gelişmesine katkıda bulunur. -->
-<!-- Araştırmacının hipoteze odaklanmasına ve çalışmasını etkileyecek diğer değişkenleri görmesini engelleyebilir. Deneysel araştırmalarda bağımlı değişkeni etkileyen bir ya da birkaç bağımsız değişken üzerinde çalışılmakta; bazı değişkenler de kontrol edilmektedir. Ancak bağımlı değişken üzerinde etkileyen ve hipotezlerde ele alınmayan başka bağımsız değişkenler de olabilir. Araştırmacı, kendi hipotezlerine odaklanarak diğer değişkenleri gözden kaçırabilir. -->
-
-<!-- İstatistiksel hipotezler, araştırmanın verileri analiz edilirken kullanılır. Araştırma raporunda genellikle belirtilmez, ancak araştırmacı hipotez test etmeyi gerektiren bir analiz yapıyorsa, bu hipotezlerin neler olduğunu bilir -->
-
-
 ---
 ## Önem
 
@@ -466,11 +456,11 @@ Alt amaç soru cümlesi;
 
 --
 
-- Araştırmanın amacı ile araştırmacının amacı ayrı ayrı şeylerdir.
+- **Araştırmanın amacı** ile **araştırmacının amacı** ayrı ayrı şeylerdir.
 
 --
 
-- **Birincisi, toplanacak verileri, ikincisi** ise bunların nasıl kullanılacağını açıklar (Karasar, 2000).
+- **Birincisi, toplanacak verileri, ikincisi ise bunların nasıl kullanılacağını** açıklar (Karasar, 2000).
 
 ---
 ## Önem
@@ -648,15 +638,20 @@ Alt amaç soru cümlesi;
 ## Yararlanılan Kaynaklar
 
 - Acar, M. (2008). **Sınıf öğretmenlerinin yeni ölçme ve değerlendirme yöntemlerine ilişkin yeterlikleri**. Ankara: Hacettepe Üniversitesi Sosyal Bilimler Enstitüsü Yüksek Lisans Tezi. 
+
 - Büyüköztürk, Ş., Çakmak E. K., Akgün, Ö. E., Karadeniz, Ş., Demirel, F. (2020). Eğitimde Bilimsel Araştırma Yöntemleri (28. Baskı), Ankara: Pegema Yayıncılık.
 
 ---
 ## Yararlanılan Kaynaklar
 
 - Karsar, N. (2000). Bilimsel Araştırma Yöntemi: Kavramlar, İlkeler, Teknikler. Ankara: Nobel Akademik Yayıncılık 
+
 - Küçükgöz, A. B. (2019). Sınıf öğretmeni adaylarının mikro öğretim kapsamında etkileşimli tahta kullanımı ile ilgili görüşleri. Ankara: Hacettepe Üniversitesi Eğitim Bilimleri Enstitüsü Yüksek Lisans Tezi. 
+
 - Ocak, İ. ve Olur, B. (2019). Bilimsel Araştırma Süreci: Giriş. G. Ocak (Edt.), *Eğitimde Bilimsel Araştırma Yöntemleri* içinde (2-61). Ankara: Pegema Yayıncılık. 
+
 - Ulutan, E. & Çobanoğlu Aktan, D. (2019). Fen bilgisi başarısını etkileyen değişkenlerin çok düzeyli regresyon modeli ile incelenmesi. *Journal of Measurement and Evaluation in Education and Psychology, 10*(4), 365-377. doi: 10.21031/epod.533713 
+
 - Yılmaz, Z. N. (2012). İlköğretim öğretmenlerinin kontrol düzeylerinin çeşitli değişkenler aısından incelenmesi. Ankara: Hacettepe Üniversitesi Sosyal Bilimler Enstitüsü Doktora Tezi. 
 
 
