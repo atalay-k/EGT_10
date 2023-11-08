@@ -633,7 +633,11 @@ boyutu açısından kullanımı hakkındaki görüşleri nelerdir?**  `r emo::ji
 
 - PISA: Uluslararası Öğrenci Durum Belirleme Programı
 
+----
 
+## Kendimizi Sınayalım
+
+´r emo::ji(link)´[Degisken Türleri calisma kagidi](Degisken Türleri.pdf)
 ---
 ## Yararlanılan Kaynaklar
 
