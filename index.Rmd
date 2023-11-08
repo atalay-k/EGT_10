@@ -70,7 +70,7 @@ Dersler "Ders Planı" başlığı altındaki sıralamaya göre işlenecektir. Be
 
 -   `r emo::ji("notebook")`  **50% Derse Katılım ve Ödevler**
     - Ödev I  - 10 puan - problem durumu bulma
-    - Ödev II - 10 puan - literatur taraması ve problem durumu
+    - Ödev II - 10 puan - araştırma problemi inceleme
 -   `r emo::ji("notebook")` **50% Genel Sınav**
 
 - `r emo::ji("warning")`  Ders sonunda hazırladığınız proje ile 
