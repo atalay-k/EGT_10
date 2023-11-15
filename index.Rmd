@@ -136,8 +136,9 @@ sizlere gelen bildirimleri takip ediniz.
 -   Ölçme Aracının Sahip Olması Gereken Özellikler
 -   Korelasyon
 
+=> ODEV II - 10 puan
 
-## `r advdate(mon, 5)`: [Örnekleme Yöntemleri](sunum/06.html)
+## `r advdate(mon, 5)`: [Örnekleme Yöntemleri](sunum/ornekleme.html)
 
 
 -   Evren - Örneklem Tanımı Örnekleme Nedir?
