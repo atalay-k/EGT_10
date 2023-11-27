@@ -443,8 +443,7 @@ knitr::include_graphics("img/uzman.jpg")
 ## Çevirimiçi Veri Toplama Araçları
 
 
-`r emo::ji('link')` [Google Formlar](https://docs.google.com/forms/d/e/1FAIpQLSdQS3eC68X92g1fx-InINCJAUQlfCucIE9_ZDRNmFe6xOmfTA/viewform?gxids=7757
-)<br>
+`r emo::ji('link')` [Google Formlar](https://forms.gle/cmHezvAtGik5GKmV8)<br>
 
 - Survey Monkey
 - My Survey Lab
