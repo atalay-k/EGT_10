@@ -147,7 +147,7 @@ sizlere gelen bildirimleri takip ediniz.
 -   Örneklem Büyüklüğü
 -   Örnekleme Hatası
 
-## `r advdate(mon, 6)`: [Veri Toplama Araçları I](sunum/08.html)
+## `r advdate(mon, 6)`: [Veri Toplama Araçları I](sunum/VeriToplama-nicel.html)
 
 - Veri Toplama Araçları
 - Anket
