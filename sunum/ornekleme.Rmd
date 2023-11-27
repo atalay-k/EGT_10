@@ -592,6 +592,49 @@ knitr::include_graphics("img/orneklembuyuklugu.png")
 
 - Bu amaçla, örneklemdekilerle evrendekilerin bilinen bazı özellikleri karşılaştırılır (cinsiyet oranları, yaş dağılımları vb)
 
+
+---
+## Örnekler
+
+Amacı öğrenci başarısındaki eğilimi izlemek ve ulusal eğitim sistemleri arasındaki farklılıkları belirlemek olan TIMSS araştırmasının ülkemiz evrenini Türkiye’deki tüm 4. ve 8. Sınıf öğrenciler oluşturmaktadır. Örnekleme sürecinde; okul türleri dikkate alınıp her bir okul türünün evrendeki oranı korunarak örneklemin seçilmesi amaçlanmaktadır.
+
+???
+Tabakalı
+
+---
+## Örnekler
+
+Lise 1. sınıf düzeyinde eğitim görmekte olan  başarılı ve başarısız öğrencilerin ders çalışma alışkanlıklarının anlaşılmasına yönelik bir durum çalışması planlayan araştırmacı çalışma grubunu belirlerken incelenen değişkenliği daha net görebilmek için problemi en iyi temsil eden zıt durumları seçmek istemektedir
+
+???
+Aykırı durum örnekleme
+
+
+---
+## Örnekler
+
+750 kişinin çalışmakta olduğu özel bir sağlık kurumunda, çalışanlarının örgütsel bağlılık düzeylerini belirlemeyi amaçlayan bir müdür yardımcısı kurumda en az beş yıldır görev yapmakta olan toplamda 463 kişiye örgütsel bağlılık ölçeğini göndermiştir.
+
+???
+Ölçüt Örnekleme
+
+---
+## Örnekler
+
+İlkokul öğrencilerinin çevre kirliliğine karşı tutumlarını belirlemek amacıyla bir ölçme aracı geliştiren araştırmacı ölçme aracının deneme uygulamasına ait geçerlik ve güvenirlik değerlerini ders vermekte olduğu sınıfın öğrencilerinden elde ettiği veriler ile hesaplamıştır. 
+
+???
+Uygun Örnekleme
+
+---
+## Örnekler
+
+Bir devlet üniversitesindeki öğretim elemanlarının iş doyum düzeyini etkileyen değişkenlerin belirlenmesini amaçlayan bir araştırmada örneklem seçilirken üniversitede çalışan öğretim elemanlarının tümünün bulunduğu bir listeden özel bir yazılım kullanılarak eşit seçilme olasığı ilkesine dikkat edilerek tesadüfi olarak belirlenmiştir.
+
+???
+
+Basit Seçkisiz
+
 ---
 ## Yararlanılan Kaynaklar
 
