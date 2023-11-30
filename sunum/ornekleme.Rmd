@@ -445,7 +445,8 @@ Eğitim alanında yapılan ölçek geliştirme makalelerini inceleyen bir araşt
 - **Araştırma problemi:** Bilgisayar destekli öğretimin Ankara'daki birinci ve ikinci sınıf öğrencilerinin okuma başarısına etkisi nasıldır?
 
 - **Hedeflenen evren:** Ankara'daki tüm birinci ve ikinci sınıf öğrenciler.
-Ulaşılabilir evren: Ankara, Eryaman semtindeki tüm birinci ve ikinci sınıf öğrencileri.
+
+- **Ulaşılabilir evren:** Ankara, Eryaman semtindeki tüm birinci ve ikinci sınıf öğrencileri.
 
 - **Örneklem:** Ankara, Eryaman’daki birinci ve ikinci sınıf çocukların yüzde onu.
 
@@ -481,7 +482,7 @@ Ulaşılabilir evren: Ankara, Eryaman semtindeki tüm birinci ve ikinci sınıf 
 ---
 ## Nicel ve Nitel Araştırmalarda Örneklem
 
-- Araştırmanın yöntemi,evren ve örneklem tercihinde etkili olan bir faktördür. 
+- Araştırmanın yöntemi, evren ve örneklem tercihinde etkili olan bir faktördür. 
 
 - Nicel araştırmalarda `r emo::ji('right')`Örneklem geniş bir evrene genellenir, evren büyük olarak tanımlanır.
 
@@ -594,43 +595,63 @@ knitr::include_graphics("img/orneklembuyuklugu.png")
 
 
 ---
-## Örnekler
+## Hangi yöntem
+.large[
+.center[
 
 Amacı öğrenci başarısındaki eğilimi izlemek ve ulusal eğitim sistemleri arasındaki farklılıkları belirlemek olan TIMSS araştırmasının ülkemiz evrenini Türkiye’deki tüm 4. ve 8. Sınıf öğrenciler oluşturmaktadır. Örnekleme sürecinde; okul türleri dikkate alınıp her bir okul türünün evrendeki oranı korunarak örneklemin seçilmesi amaçlanmaktadır.
+
+] 
+]
 
 ???
 Tabakalı
 
 ---
-## Örnekler
-
+## Hangi yöntem
+.large[
+.center[
 Lise 1. sınıf düzeyinde eğitim görmekte olan  başarılı ve başarısız öğrencilerin ders çalışma alışkanlıklarının anlaşılmasına yönelik bir durum çalışması planlayan araştırmacı çalışma grubunu belirlerken incelenen değişkenliği daha net görebilmek için problemi en iyi temsil eden zıt durumları seçmek istemektedir
 
+]
+]
 ???
 Aykırı durum örnekleme
 
 
 ---
-## Örnekler
+## Hangi yöntem
 
+.large[
+.center[
 750 kişinin çalışmakta olduğu özel bir sağlık kurumunda, çalışanlarının örgütsel bağlılık düzeylerini belirlemeyi amaçlayan bir müdür yardımcısı kurumda en az beş yıldır görev yapmakta olan toplamda 463 kişiye örgütsel bağlılık ölçeğini göndermiştir.
 
+]
+]
 ???
 Ölçüt Örnekleme
 
 ---
-## Örnekler
+## Hangi yöntem
 
+.large[
+.center[
 İlkokul öğrencilerinin çevre kirliliğine karşı tutumlarını belirlemek amacıyla bir ölçme aracı geliştiren araştırmacı ölçme aracının deneme uygulamasına ait geçerlik ve güvenirlik değerlerini ders vermekte olduğu sınıfın öğrencilerinden elde ettiği veriler ile hesaplamıştır. 
 
+]
+]
 ???
 Uygun Örnekleme
 
 ---
-## Örnekler
+## Hangi yöntem
 
+.large[
+.center[
 Bir devlet üniversitesindeki öğretim elemanlarının iş doyum düzeyini etkileyen değişkenlerin belirlenmesini amaçlayan bir araştırmada örneklem seçilirken üniversitede çalışan öğretim elemanlarının tümünün bulunduğu bir listeden özel bir yazılım kullanılarak eşit seçilme olasığı ilkesine dikkat edilerek tesadüfi olarak belirlenmiştir.
 
+]
+]
 ???
 
 Basit Seçkisiz
