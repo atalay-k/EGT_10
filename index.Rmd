@@ -155,7 +155,7 @@ sizlere gelen bildirimleri takip ediniz.
 - Madde Türleri
 - Ölçekler
 
-## `r advdate(mon, 9)`:[Veri Toplama Araçları II](sunum/09.html)
+## `r advdate(mon, 9)`:[Veri Toplama Araçları II](sunum/Veritoplama-nitel.html)
 
 -   Anketler
 -   Gözlem formları
