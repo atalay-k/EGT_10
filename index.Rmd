@@ -163,19 +163,19 @@ sizlere gelen bildirimleri takip ediniz.
 -   Çevirim için veri toplama araçları
 
 
-## `r advdate(mon, 10)`: [Nicel Araştırmalar I](sunum/10.html)
+## `r advdate(mon, 10)`: [Nicel Araştırmalar I](sunum/Nicel.html)
 
 -   İç geçerlik - Dış Geçerlik
 -   Tarama Araştırması
 -   Korelasyon Araştırması
 
 
-## `r advdate(mon, 11)`: [Nicel Araştırmalar II](sunum/11.html)
+## `r advdate(mon, 11)`: [Nicel Araştırmalar II](sunum/Deneysel.html)
 
 -   Nedensel Araştırma
 -   Deneysel Araştırmalar ve Türleri
 
-## `r advdate(mon, 12)`: [Nitel Araştırmalar I](sunum/12.html)
+## `r advdate(mon, 12)`: [Nitel Araştırmalar I](sunum/Nitel.html)
 
 -   Nicel ve Nitel Araştırma Farkları
 -   Nitel Araşatırma Aşamaları
