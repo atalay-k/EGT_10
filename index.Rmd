@@ -184,7 +184,7 @@ sizlere gelen bildirimleri takip ediniz.
 -   Eylem Araştırması
 -   Durum Araştırması
 
-## `r advdate(mon, 13)`: [Verilerin Analizi](sunum/13.html)
+## `r advdate(mon, 13)`: [Verilerin Analizi](sunum/Verianaliz.html)
 
 -   Parametre Nedir?
 -   İstatistik Nedir?
@@ -197,7 +197,7 @@ sizlere gelen bildirimleri takip ediniz.
 
 
 
-## `r advdate(mon, 14)`: [Araştırma Raporu Hazırlama, Araştırma ve Yayın Etiği](sunum/14.html)
+## `r advdate(mon, 14)`: [Araştırma Raporu Hazırlama, Araştırma ve Yayın Etiği](sunum/Raporhazirlama.html)
 
 -   Rapor hazırlamada dikkat edilecek hususlar
 -   Araştırma türlerine göre rapor örnekleri

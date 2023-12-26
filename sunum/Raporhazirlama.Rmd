@@ -190,7 +190,7 @@ yapılmalıdır?
 
 
  
-- `r emo::ji("link")` [APA7 - Akademik Yayın İlkeleri](http://acikders.hacettepe.edu.tr/dersler/edebiyat_fakultesi/APA/APA.html)
+- `r emo::ji("link")` [APA7 - Akademik Yayın İlkeleri](https://psikoloji.hacettepe.edu.tr/tr/menu/-189)
 
 - `r emo::ji("link")` [İncelenen Makale](http://egitimvebilim.ted.org.tr/index.php/EB/article/view/11354)
 
