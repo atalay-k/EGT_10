@@ -184,7 +184,7 @@ sizlere gelen bildirimleri takip ediniz.
 -   Eylem Araştırması
 -   Durum Araştırması
 
-## `r advdate(mon, 13)`: [Verilerin Analizi](sunum/Verianaliz.html)
+## `r advdate(mon, 13)`: [Verilerin Analizi](sunum/Verianalizi.html)
 
 -   Parametre Nedir?
 -   İstatistik Nedir?
