@@ -1,6 +1,6 @@
 ---
-title: "EGT204: EĞİTİMDE ARAŞTIRMA YÖNTEMLERİ"
-subtitle: "Ders Iceriği"
+title: "EGT204_10: EĞİTİMDE ARAŞTIRMA YÖNTEMLERİ"
+subtitle: "Bahar_Ders Iceriği"
 date: "Guz - 2024"
 output:
   html_document:
@@ -40,8 +40,8 @@ mon <- ymd(20241004)
 |                                        |                                |
 |----------------------------------------|--------------------------------|
 | **email:** kkatalay\@gmail.com         |  katalay@hacettepe.edu.tr |
-                | **Sinif:** B9Z03             |
-| **Ofis saatleri:** Cuma 10:00-12:00    | **Saat:**  10:40-12:30         |
+                | **Sinif:** B10204            |
+| **Ofis saatleri:** Cuma 10:00-12:00    | **Saat:**  14:40-15:30         |
 | **Ofis:** "Eğitim Bilimleri Enstitüsü" |                                |
 
 
@@ -68,9 +68,7 @@ Dersler "Ders Planı" başlığı altındaki sıralamaya göre işlenecektir. Be
 # Notlandırma
 
 
--   `r emo::ji("notebook")`  **50% Derse Katılım ve Ödevler**
-    - Ödev I  - 10 puan - problem durumu bulma
-    - Ödev II - 10 puan - araştırma problemi inceleme
+-   `r emo::ji("notebook")`  **50% Derse Katılım, Mini Sınavlar ve Ödevler**
 -   `r emo::ji("notebook")` **50% Genel Sınav**
 
 - `r emo::ji("warning")`  Ders sonunda hazırladığınız proje ile 
