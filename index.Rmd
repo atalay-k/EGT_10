@@ -1,7 +1,7 @@
 ---
 title: "EGT204_10: EĞİTİMDE ARAŞTIRMA YÖNTEMLERİ"
 subtitle: "Bahar_Ders Iceriği"
-date: "Guz - 2024"
+date: "Bahar - 2024"
 output:
   html_document:
     toc: true
@@ -31,7 +31,7 @@ advdate <- function(obj, adv) {
  tmp <- paste("Hafta ",zadv,sep='',", ", tmon)
  return(tmp)
 }
-mon <- ymd(20241004)
+mon <- ymd(20240222)
 
 ```
 
