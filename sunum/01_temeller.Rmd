@@ -86,7 +86,7 @@ mon <- ymd(20220207)
 
 --
 
-- Kurallardan yararlanarak kişinin veriye yönelttiği anlam 
+- Kurallardan yararlanarak kişinin veriye yönelttiği anlam .
 
 ---
 ## Bilginin Kaynağı
