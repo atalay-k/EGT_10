@@ -258,11 +258,11 @@ knitr::include_graphics("img/Bilim.PNG")
 ---
 ## Bilimsel Yöntem
 
-- **Bacon** tarafından geliştirilen `r emo::ji('right')` Tümevarım Empirizm (deneycilik), gerçek bilgiye duyular sayesinde ve **tümevarım** aracılığıyla ulaşılabileceğini savunur.
+- **Bacon** tarafından geliştirilen `r emo::ji('right')` Tümevarım Empirizm (deneycilik), gerçek bilgiye **duyular sayesinde** ve **tümevarım** aracılığıyla ulaşılabileceğini savunur.
 
 --
 
-- **Aristo** tarafından kavramsallaştırılan `r emo::ji('right')`  Tümdengelim Rasyonalizm (akılcılık), bilginin asıl kaynağının akıl olduğunu ve **tümdengelim** aracılığıyla elde edilebileceğini savunur.
+- **Aristo** tarafından kavramsallaştırılan `r emo::ji('right')`  Tümdengelim Rasyonalizm (akılcılık), bilginin asıl kaynağının **akıl** olduğunu ve **tümdengelim** aracılığıyla elde edilebileceğini savunur.
 süreçlerinin sentezidir. 
 
 ```{r echo=FALSE, fig.align='center',out.width="40%"}
@@ -507,8 +507,6 @@ Bilimsel Araştırma
 
 - Araştırma **yöntemi** tespit edilmelidir.
 
-- Kuramsal yapısı, değişkenleri ve **değişkenler arasındaki muhtemel ilişkiler** belirlenmelidir.
-
 - Araştırma yöntemine uygun **örneklem ve veri toplama araçları** belirlenerek veri toplanmalıdır.
 
 - Toplanan verilerin çeşitli **analiz teknikleri ile analiz edilerek yorumlanması ve sonuçların raporlanarak** ilgili bilim caiması ile paylaşılması gerekir. 
@@ -561,6 +559,6 @@ Bilimsel Araştırma
 
 - Şimşek, A. S. (2019). Bilim, Bilimin Doğası, Gelişimi ve Bilimsel Araştırma. K. Yılmaz ve R. S. Arık (Edt.) *Bilim ve Araştırma Etiği* içinde (2-11). Ankara: Pegema Yayıncılık. 
 
--  Çetin, B., İlhan, M. ve Şahin, M. G. (2021). Eğitimde Araştırma Yöntemleri: Temel Kavramlar, İlkeler ve Süreçler, Pegem Akademi.
+- Tüzel İşeri, E. (2019). Bilimin Tanımı, Doğası, Özellikleri, Tarihsel Gelişimi ve Bilimsel Paradigmalar. N. Cemaloğlu (Edt.) *Bilimsel Araştırma Teknikleri ve Etik* içinde (1-22). Ankara: Pegema Yayıncılık. 
 ]
 

@@ -2,7 +2,7 @@
 title: "`r emo::ji('muscle')` EGİTİMDE ARAŞTIRMA YÖNTEMLERİ"
 subtitle: " <br> `r emo::ji('graph')` Probleminin Tanımlanması II"
 author: "<br> <br> `r emo::ji('woman_teacher')` Dr. Kübra ATALAY KABASAKAL <br> Hacettepe Üniversitesi"
-date: "2023-2024 Güz<br> <br> <br> <br>`r emo::ji('e-mail')` katalay@hacettepe.edu.tr"
+date: "2023-2024 Bahar<br> <br> <br> <br>`r emo::ji('e-mail')` katalay@hacettepe.edu.tr"
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -273,7 +273,7 @@ açısından kullanımı hakkındaki görüşleri nelerdir?**
 boyutu açısından kullanımı hakkındaki görüşleri nelerdir?**
 
 4. Sınıf öğretmenlerinin geleneksel ve alternatif ölçme araçlarının **sınıf mevcudu
-boyutu açısından kullanımı hakkındaki görüşleri nelerdir?**
+boyutu açısından kullanımı hakkındaki görüşleri nelerdir?**  
 
 5. Sınıf öğretmenlerinin geleneksel ve alternatif ölçme araçlarının **uygulama
 boyutu açısından kullanımı hakkındaki görüşleri nelerdir?**  `r emo::ji("link")`[(Acar, 2008)](https://dergipark.org.tr/en/download/article-file/146332). 
@@ -633,11 +633,6 @@ boyutu açısından kullanımı hakkındaki görüşleri nelerdir?**  `r emo::ji
 
 - PISA: Uluslararası Öğrenci Durum Belirleme Programı
 
-----
-
-## Kendimizi Sınayalım
-
-´r emo::ji(link)´[Degisken Türleri calisma kagidi](Degisken Türleri.pdf)
 ---
 ## Yararlanılan Kaynaklar
 
