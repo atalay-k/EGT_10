@@ -37,7 +37,7 @@ l <- DiagrammeR::mermaid("
 -   Araştırma Problemin Tanımlanması
 -   İyi bir araştırma probeliminin sahip olması gereken özellikler
 -   Problem ve alt problemler
--   Literatur Taraması
+-   Literatür Taraması
 
 ---
 
@@ -51,6 +51,18 @@ l <- DiagrammeR::mermaid("
                           Albert Einstein
                           
 ]]
+
+
+---
+## Ig (Ignoble-Değersiz) Nobel Ödülleri
+
+- Ig Nobel ödülleri, ilk kez 1991 yılında olmak üzere her yıl aralık ayında *Annals of Improbable Research* tarafından Harvard Üniversitesi’nde düzenlenen törenle değersiz, saçma, yeniden üretilmeyecek ve üretilmemesi gereken bilimsel çalışmalara verilen ödüllerdir.
+
+--
+
+- Bu ödülü kazanan araştırmalar, gerçek veriler içeren ve prestijli bilimsel dergilerde yayımlanmış olan çalışmalardır. Ig Nobel ödülündeki amaç, hayal gücünü onurlandırmak ve insanların dikkatini çekmektir.`r emo::ji('link')` [bağlantı](https://tr.wikipedia.org/wiki/Ig_Nobel_%C3%96d%C3%BClleri#:~:text=Ig%20Nobel%20%C3%B6d%C3%BClleri%2C%20Harvard%20%C3%9Cniversitesi,ignoble%20kelimesinden%20t%C3%BCretilmi%C5%9F%20bir%20kelimedir.)<br>
+(akt: Şahin ve İlhan, 2021). 
+
 
 ---
 
@@ -73,16 +85,6 @@ l <- DiagrammeR::mermaid("
 
 
 
-
----
-## Ig (Ignoble-Değersiz) Nobel Ödülleri
-
-- Ig Nobel ödülleri, ilk kez 1991 yılında olmak üzere her yıl aralık ayında *Annals of Improbable Research* tarafından Harvard Üniversitesi’nde düzenlenen törenle değersiz, saçma, yeniden üretilmeyecek ve üretilmemesi gereken bilimsel çalışmalara verilen ödüllerdir.
-
---
-
-- Bu ödülü kazanan araştırmalar, gerçek veriler içeren ve prestijli bilimsel dergilerde yayımlanmış olan çalışmalardır. Ig Nobel ödülündeki amaç, hayal gücünü onurlandırmak ve insanların dikkatini çekmektir.`r emo::ji('link')` [bağlantı](https://tr.wikipedia.org/wiki/Ig_Nobel_%C3%96d%C3%BClleri#:~:text=Ig%20Nobel%20%C3%B6d%C3%BClleri%2C%20Harvard%20%C3%9Cniversitesi,ignoble%20kelimesinden%20t%C3%BCretilmi%C5%9F%20bir%20kelimedir.)<br>
-(akt: Şahin ve İlhan, 2021). 
 
 
 ---
@@ -116,14 +118,7 @@ l <- DiagrammeR::mermaid("
 ---
 ## Araştırma Problemi
 
-- Araştırma fikri bizi rahatsız eden, ilgimizi çeken, çözülmesini değerli bulduğumuz konulardır. Geneldir.
-
---
-- Araştırma problemini belirlemenin ön adımıdır. 
-
---
-
-- Araştırma fikrinin kaynakları;
+- Araştırma fikri bizi rahatsız eden, ilgimizi çeken, çözülmesini değerli bulduğumuz konulardır. Geneldir. Araştırma problemini belirlemenin ön adımıdır. İlk olarak araştırma için **bir fikir bulmanız gerekir.**Araştırma fikrinin kaynakları;
 
 --
 
@@ -140,6 +135,10 @@ l <- DiagrammeR::mermaid("
 --
 
 - **Kuramlar** Bilişsel davranışcı kurama dayalı grup rehberlik programının öfke kontrolüne etkisi 
+
+--
+
+- Fikriniz sonucunda **araştırma konusunu** da belirleyebilirsiniz.Eğer enerji içeceklerin performansınız üzerinde etkisini olduğunu düşünüyorsanız araştırma fikrinizin kaynağı **günlük yaşamdır.**
 
 
 ---
@@ -165,30 +164,7 @@ l <- DiagrammeR::mermaid("
 
 - Etik kurallara uygun olarak uygulanabilirlik (gizlilik, gönüllü katılım, sağlık ya da esenliğin tehlikeye atılmamaması)
 
----
-## Araştırma Problemi
 
-- Bir bilimsel araştırma bir problemle başlar.
-
---
-
-- İlk olarak araştırma için **bir fikir bulmanız gerekir.**
-
---
-
-- Bu fikir kaynağı **günlük yaşamdan, uygulamalardan, geçmiş araştırmalardan ve ya kuramlardan gelebilir. **
-
---
-
-- Fikir kaynakları size **genel bir çerçeve** verecektir.
-
---
-
-- Fikriniz sonucunda **araştırma konusunu** da belirleyebilirsiniz.
-
---
-
-- Eğer enerji içeceklerin performansınız üzerinde etkisini olduğunu düşünüyorsanız araştırma fikrinizin kaynağı **günlük yaşamdır.**
 
 ---
 ## Araştırma Problemi
@@ -249,6 +225,7 @@ l <- DiagrammeR::mermaid("
 - **Etik** (Farklı sıklıkta sigara içmeye maruz bırakılan kişilerin kansere yakalanma olasılıklarının karşılaştırılması !) 
 
 ---
+
 ## Araştırma problemini nasıl tanımlarız?
 
 **Giriş bilgisi:**  Araştırmanın temel değişkeni hakkında genel bilgiler verilerek probleminin bağlamı ve neden önemli olduğu açıklanır.  
@@ -621,7 +598,7 @@ Araştırma niçin yapılmış? Araştırma, hangi problemi çözmek için yapı
 
 Araştırma nasıl yapılmış? Deseni, örneklemi, veri toplama yöntemi/aracı, analiz yöntemi nedir?
 
----
+----
 
 Araştırma sonucunda ne bulunmuş?
 
