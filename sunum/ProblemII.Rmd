@@ -189,6 +189,7 @@ tx_names1 %>%
 ```
 
 ]
+
 ---
 
 .center[
@@ -244,12 +245,9 @@ Alt amaç soru cümlesi;
 ## Genel Amaç ve Alt Amaçlar
 
 
-- Bir araştırmada, amaçlardan bir bölümü hipotez, bir bölümü ise soru cümleleriyle ifade edilebilir.
+- Bazı araştırmada problem cümlesi ve hipoteze ilişkin ayrı bir başlık bulunmaz. 
 
---
-
-- Ancak, aynı veriler için, soru cümlesi ve hipotez birlikte kullanılamaz. 
-
+- araştırmanın türü ve amacından yola çıkılarak problem cümlesi ve hipotezlerden biri tercih edilmelidir. 
 --
 
 - Soru cümleleri ve hipotezler, araştırmada toplanan verileri tanımlar nitelikte, işlevsel (fonksiyonel) olmalıdır. Her soru/hipotez yalnız bir tek ilişkiyi arayan ya da sınamak isteyen bir anlatıdır  (Karasar, 2000). 
@@ -368,6 +366,7 @@ boyutu açısından kullanımı hakkındaki görüşleri nelerdir?**  `r emo::ji
 
 
 
+
 ---
 ## Örnek-4
 
@@ -441,6 +440,17 @@ boyutu açısından kullanımı hakkındaki görüşleri nelerdir?**  `r emo::ji
 
 - Açık, basit, anlaşılır ve işlevsel (işe vuruk) bir şekilde ifade edilmiş olmalıdır.
 
+
+---
+<br>
+<br>
+
+|Araştırma Problemi | Hipotez |
+|---|---|
+| her çalışmada araştırma problemi yazılabilir. | 2 değişken ve bunların arasındaki ilişkilerin incelendiği çalışmalar için yazılabilir |
+| soru cümlesi biçimindedir | yargı cümlesidir |
+| her hipotez problem cümlesine dönüştürülebilir | yalnızca uygun yapıya sahip araştırma problemleri hipoteze dönüştürülebilir| 
+| genelde nitel çalışmalarda tercih edilir Çünkü bu araştırmalar doğası gereği hipotez yazmayı uygun değildir| çoğunlukla niceler araştırmalarda Özellikle de denetlerde desenlerde kullanılır|
 
 ---
 ## Önem
@@ -638,7 +648,7 @@ boyutu açısından kullanımı hakkındaki görüşleri nelerdir?**  `r emo::ji
 
 - Acar, M. (2008). **Sınıf öğretmenlerinin yeni ölçme ve değerlendirme yöntemlerine ilişkin yeterlikleri**. Ankara: Hacettepe Üniversitesi Sosyal Bilimler Enstitüsü Yüksek Lisans Tezi. 
 
-- Büyüköztürk, Ş., Çakmak E. K., Akgün, Ö. E., Karadeniz, Ş., Demirel, F. (2020). Eğitimde Bilimsel Araştırma Yöntemleri (28. Baskı), Ankara: Pegema Yayıncılık.
+- Büyüköztürk, Ş., Çakmak E. K., Akgün, Ö. E., Karadeniz, Ş., Demirel, F. (2020). Eğitimde Bilimsel Araştırma Yöntemleri (28. Baskı), Ankara: Pegema Yayıncılık
 
 ---
 ## Yararlanılan Kaynaklar
