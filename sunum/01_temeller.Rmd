@@ -175,11 +175,6 @@ mon <- ymd(20220207)
 --
 
 
-- **Bilimsel yöntem;** geçerlik ölçüsü güvenilir veriler olan bir **anlama, bulma ve doğrulama yöntemidir.** 
-
---
-
-
 - Bilimsel yöntemle elde edilmiş bilgiler aslında **her an yanlış oldukları ortaya çıkabilecek geçici doğrular mertebisindedir.**
 
 ---
