@@ -291,9 +291,7 @@ boyutu açısından kullanımı hakkındaki görüşleri nelerdir?**  `r emo::ji
 
 3. Öğretmenlerin sınıflarındaki kontrol düzeyleri ile **mesleki 	deneyimleri arasında fark var mıdır?**
 
-4. Öğretmenlerin sınıflarındaki kontrol düzeyleri ile **sınıf 	mevcutları arasında fark var mıdır?**
-
-5. Öğretmenlerin sınıflarındaki **kontrol düzeyleri ile alanları 	(branşları) arasında fark var mıdır?**
+4. Öğretmenlerin sınıflarındaki kontrol düzeyleri ile **sınıf 	mevcutları arasında fark var mıdır?**5. Öğretmenlerin sınıflarındaki **kontrol düzeyleri ile alanları 	(branşları) arasında fark var mıdır?**
 
 6. Öğretmenlerin sınıflarındaki kontrol düzeyleri ile **okuttukları 	sınıf seviyeleri arasında fark var mıdır?** `r emo::ji("link")`[(Yılmaz, 2012)](https://openaccess.hacettepe.edu.tr/xmlui/bitstream/handle/11655/1867/676d43e2-a1a6-4dbb-917f-09f4e012c287.pdf?sequence=1&isAllowed=y)
 ]

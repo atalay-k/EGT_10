@@ -402,7 +402,7 @@ knitr::include_graphics("img/surec.png")
 - **Tanımlama** aşamasında, bu değişkenler açıklanır
   - Altıncı Sınıf öğrencileri ne demek
   - Matematik başarısı ile ne kastediyor
-  - Sosyo-ekonomik düzey nasıl ölçülecek
+  - Sosyo-ekompnmik düzey nasıl ölçülecek
 
 ]
 

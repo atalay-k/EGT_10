@@ -96,7 +96,6 @@ Dersler "Ders Planı" başlığı altındaki sıralamaya göre işlenecektir. Be
 \newpage
 ```
 # Ders Planı
-
 * belirtilen tarihlerde değişiklikler olabilir.
 sizlere gelen bildirimleri takip ediniz.
 
@@ -109,11 +108,11 @@ sizlere gelen bildirimleri takip ediniz.
 
 ## `r advdate(mon, 3)`: Araştırma Problemin Tanımlanması 
 
-- [Probleminin Tanımlanması I](sunum/ProblemI.html)
+- [Probleminin Tanımlanması I](sunum/02_ProblemI.html)
   -   İyi bir araştırma probeliminin sahip olması gereken özellikler
   -   Problem ve alt problemler
   -   Literatur Taraması
-- [Probleminin Tanımlanması II](sunum/ProblemII.html)
+- [Probleminin Tanımlanması II](sunum/03_ProblemII.html)
   -   Değişken nedir?
   -   Değişken Sınıflaması
   -   Hipotez Nedir?
@@ -125,7 +124,7 @@ sizlere gelen bildirimleri takip ediniz.
 => ODEV I - 10 puan
 
 
-## `r advdate(mon, 4)`:[Ölçmede Temel Kavramlar](sunum/olcme.html)
+## `r advdate(mon, 4)`:[Ölçmede Temel Kavramlar](sunum/04_olcme.html)
 -   Ölçme Nedir?
 -   Ölçüm Nedir?
 -   Ölçek Nedir?
