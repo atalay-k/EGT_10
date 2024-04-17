@@ -144,7 +144,14 @@ sizlere gelen bildirimleri takip ediniz.
 -   Örneklem Büyüklüğü
 -   Örnekleme Hatası
 
-## `r advdate(mon, 6)`: [Veri Toplama Araçları I](sunum/VeriToplama-nicel.html)
+## `r advdate(mon, 6)`: [Araştırmaların Sınıflandırılması](sunum/05_Siniflandirma.html)
+
+-   Nicel  Araştırma 
+-   Nitel  Araştırma 
+-   Nicel ve Nitel Araştırma Farkları
+-   Deneysel Araştırmalar
+  
+## `r advdate(mon, 7)`: [Veri Toplama Araçları I](sunum/VeriToplama-nicel.html)
 
 - Veri Toplama Araçları
 - Anket
@@ -152,7 +159,7 @@ sizlere gelen bildirimleri takip ediniz.
 - Madde Türleri
 - Ölçekler
 
-## `r advdate(mon, 9)`:[Veri Toplama Araçları II](sunum/Veritoplama-nitel.html)
+## `r advdate(mon, 8)`:[Veri Toplama Araçları II](sunum/Veritoplama-nitel.html)
 
 -   Anketler
 -   Gözlem formları
@@ -160,26 +167,7 @@ sizlere gelen bildirimleri takip ediniz.
 -   Çevirim için veri toplama araçları
 
 
-## `r advdate(mon, 10)`: [Nicel Araştırmalar I](sunum/Nicel.html)
 
--   İç geçerlik - Dış Geçerlik
--   Tarama Araştırması
--   Korelasyon Araştırması
-
-
-## `r advdate(mon, 11)`: [Nicel Araştırmalar II](sunum/Deneysel.html)
-
--   Nedensel Araştırma
--   Deneysel Araştırmalar ve Türleri
-
-## `r advdate(mon, 12)`: [Nitel Araştırmalar I](sunum/Nitel.html)
-
--   Nicel ve Nitel Araştırma Farkları
--   Nitel Araşatırma Aşamaları
--   Karma Desenler
--   İçerik Analizi
--   Eylem Araştırması
--   Durum Araştırması
 
 ## `r advdate(mon, 13)`: [Verilerin Analizi](sunum/Verianalizi.html)
 

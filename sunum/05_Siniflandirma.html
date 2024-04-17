@@ -1,44 +1,95 @@
----
-title: "`r emo::ji('muscle')` EGİTİMDE ARAŞTIRMA YÖNTEMLERİ"
-subtitle: " <br> `r emo::ji('graph')` Araştırmaların Sınıflandırılması"
-author: "<br> <br> `r emo::ji('woman_teacher')` Dr. Kübra ATALAY KABASAKAL <br> Hacettepe Üniversitesi"
-date: "2023-2024 <br> <br> <br> <br>`r emo::ji('e-mail')` katalay@hacettepe.edu.tr"
-output:
-  xaringan::moon_reader:
-    lib_dir: libs
-    css: ["xaringan-themer.css", "slides-style.css"]
-    nature:
-      highlightStyle: solarized-light
-      highlightLines: true
-      countIncrementalSlides: false
-      ratio: "16:9"
-      slideNumberFormat: |
-        <div class="progress-bar-container">
-          <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
-          </div>
-        </div>
----
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>💪 EGİTİMDE ARAŞTIRMA YÖNTEMLERİ</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="    👩‍🏫 Dr. Kübra ATALAY KABASAKAL   Hacettepe Üniversitesi" />
+    <script src="libs/header-attrs/header-attrs.js"></script>
+    <link href="libs/font-awesome/css/all.min.css" rel="stylesheet" />
+    <link href="libs/font-awesome/css/v4-shims.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
+    <link rel="stylesheet" href="slides-style.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
 
-```{r child = "../setup.Rmd"}
-```
-
-```{r set-theme, include=FALSE}
-library(emoji)
-library(xaringanthemer)
-library(dplyr)
-
-style_duo_accent(
-  primary_color      = "#0F4C81", # pantone classic blue
-  secondary_color    = "#B6CADA", # pantone baby blue
-  header_font_google = google_font("Raleway"),
-  text_font_google   = google_font("Raleway", "300", "300i"),
-  code_font_google   = google_font("Source Code Pro"),
-  text_font_size     = "30px"
-)
-```
+.title[
+# 💪 EGİTİMDE ARAŞTIRMA YÖNTEMLERİ
+]
+.subtitle[
+## <br> 📊 Araştırmaların Sınıflandırılması
+]
+.author[
+### <br> <br> 👩‍🏫 Dr. Kübra ATALAY KABASAKAL <br> Hacettepe Üniversitesi
+]
+.date[
+### 2023-2024 <br> <br> <br> <br>📧 <a href="mailto:katalay@hacettepe.edu.tr" class="email">katalay@hacettepe.edu.tr</a>
+]
 
 ---
-## Araştırmaların Sınıflandırılması .huge[`r emo::ji("stats")`]
+
+
+
+
+
+layout: true
+  
+&lt;div class="my-footer"&gt;
+&lt;span&gt;
+ - Dr. Kübra Atalay Kabasakal
+&lt;/span&gt;
+&lt;/div&gt; 
+
+---
+
+
+
+---
+
+## Örnekleme Yöntemleri .huge[📊]
+  
+  .hand[İçerik...]
+-  Araştırmaların Sınıflandırılması
+-   Nicel ve Nitel Araştırmalar
+
+---
+## Araştırma deseni
+
+- **Araştırmanın sorularını cevaplamak ya da hipotezlerini test etmek amacıyla araştırmacı tarafından geliştirilen bir plandır. **
+
+- **Ölçme koşullarını** (müdahale, doğal akış, araştırmanın odağını…) tanımlar.
+
+- **Olaylara nasıl bakıldığını** (pozitivist, constructivist, pragmatist) ortaya koyar.
+
+---
+## Araştırma deseni
+
+- **Araştırmanın sorularını cevaplamak ya da hipotezlerini test etmek amacıyla araştırmacı tarafından geliştirilen bir plandır. **
+
+- **Ölçme koşullarını** (müdahale, doğal akış, araştırmanın odağını…) tanımlar.
+
+- **Olaylara nasıl bakıldığını** (pozitivist, constructivist, pragmatist) ortaya koyar.
+
+
+---
+## Bilimsel Araştırmaların Sınıflanması
+
+- Farklı sınıflamalar bulunmaktadır (Büyüköztürk, Çakmak, Akgün, Karadeniz, &amp; Demirel, 2008; Karasar, 2003; Şekercioğlu, 2011/2015)
+
+- Uygulama/Düzey açısından
+    - Temel
+    - Uygulamalı
+- Amaç açısından 
+    - Betimsel, 
+    - İlişkisel
+    - Açımlayıcı/Keşfedici
+- Kullanılan inceleme yöntemine/ verinin türüne göre 
+     - Nitel
+     - Nicel
+
+---
+## Araştırmaların Sınıflandırılması .huge[📊]
 
 -   Temel ve Uygulamalı Araştırmaları
 
@@ -52,50 +103,19 @@ style_duo_accent(
 
 
 ---
-## Araştırma deseni
-
-- **Araştırmanın sorularını cevaplamak ya da hipotezlerini test etmek amacıyla araştırmacı tarafından geliştirilen bir plandır. **
-
-- **Ölçme koşullarını** (müdahale, doğal akış, araştırmanın odağını…) tanımlar.
-
-- **Olaylara nasıl bakıldığını** (pozitivist, constructivist, pragmatist) ortaya koyar.
-
----
-## Araştırmalarda iç ve dış geçerlik
-
-- Araştırmanın sonuçlarının deneklerin seçildiği büyük gruplara, **evrene genellenebilirlik derecesi dış geçerliktir.**
-
-- **İç geçerlik**, yordayıcı ilişkilerin analizinde ve özellikle deneysel çalışmalarda esastır.
-
-- İç geçerlik, **bağımlı değişkende gözlenen değişmelerin, bağımsız değişkenle açıklanabilirlik derecesidir.**
-
-
-<!-- --- -->
-<!-- ## Araştırmalarda iç ve dış geçerlik -->
-
-<!-- - Araştırmanın sonuçlarının deneklerin seçildiği büyük gruplara, **evrene genellenebilirlik derecesi dış geçerliktir.** -->
-
-<!-- - **İç geçerlik**, yordayıcı ilişkilerin analizinde ve özellikle deneysel çalışmalarda esastır. -->
-
-<!-- - İç geçerlik, **bağımlı değişkende gözlenen değişmelerin, bağımsız değişkenle açıklanabilirlik derecesidir.** -->
-
-
-
-
----
 ##   Temel ve Uygulamalı Araştırmaları
 
 
-- Temel araştırmalar yeni teorilerin geliştirilmesi amaçlar.
+- temel araştırmalar yeni teorilerin geliştirilmesi amaçlar.
 
-- Temel araştırmaların doğrudan gerçek yaşam problemlerini çözüm üretme 
+- temel araştırmaların doğrudan gerçek yaşam problemlerini çözüm üretme 
 gibi bir hedefleri yoktur 
     - Genetik bozukluklar ve kalıtsal hastalıkları daha iyi anlayabilmek için 
     fareler üzerinde yapılan çalışmalar 
     - kısa süreli bellek ile uzun süreli belleğin kapasitlerinin karşılaştırılması 
     - stresin hafızı üzerindeki etkisinin test edilmesi 
     
-- Uygulamalı araştırmalar çoğunlukla temel araştırmalarda ulaşılan bilgiler 
+- uygulamalı araştırmalar çoğunlukla temel araştırmalarda ulaşılan bilgiler 
 üzerine inşa edilir kimi zaman da bunun tam tersi yaşanabilir.
 
 - Bu bakımdan uygulamalı araştırmalar bazen yeni teorilerin geliştirilmesine
@@ -105,35 +125,35 @@ gibi bir hedefleri yoktur
 ---
 ##   Laboratuar ve Saha Araştırmaları
 
-- Laboratuvar çalışmaları araştırma için özel olarak tasarlanmış ortamlarda yapılır.
+- laboratuvar çalışmaları araştırma için özel olarak tasarlanmış ortamlarda yapılır
 
-  - Araştırmacıya yüksek bir kontrol imkanı verir sonuçları hata karışmasına yol açabilecek faktörler minimum düzeyde tutulabilir 
+- araştırmacıya yüksek bir kontrol imkanı verir sonuçları hata karışmasına yol açabilecek faktörler minimum düzeyde tutulabilir 
 
-- Saha araştırmaları ise sıkı kontrollerin yer aldığı ortamlarda yapılmaz 
+- saha araştırmaları ise sıkı kontrollerin yer aldığı ortamlarda yapılmaz 
 
-  - olaylar, olgular, Kişiler kendi doğal ortamında incelenir. Örneğin okul sınıf spor salonu
+- olaylar, olgular, Kişiler kendi doğal ortamında incelenir. Örneğin okul sınıf spor salonu
 
 ---
 ## Anlık ve Boylamsal Araştırmaları
 
-- Anlık araştırmalarda katılımcılardan tek bir anda veri toplanır 
+- anlık araştırmalarda katılımcılardan tek bir anda veri toplanır 
 
-- Boylamsal araştırmalarda ise aynı kişiler uzun bir süre takip edilir ve bu süre zarfında bireylerden belli aralıklarda birkaç kez veri toplanır 
+- boylamsal araştırmalarda ise aynı kişiler uzun bir süre takip edilir ve bu süre zarfında bireylerden belli aralıklarda birkaç kez veri toplanır 
 
 - hem boylamsal hem de anlık araştırmaların kendilerine göre birtakım güçlü ve zayıf yönleri vardır.
 
-- Boylamsal araştırmaların en güçlü yanı incelenen olayın olgunun zaman içerisindeki değişimine dahi geçerliliği ve güvenilirliği yüksek sonuçlar üretebilmesidir.  fakat boylamsal çalışmalarda veri toplama işi zordur, fazla emek ve maliyet gerektirir 
+- boylamsal araştırmaların en güçlü yanı incelenen olayın olgunun zaman içerisindeki değişimine dahi geçerliliği ve güvenilirliği yüksek sonuçlar üretebilmesidir.  fakat boylamsal çalışmalarda veri toplama işi zordur, fazla emek ve maliyet gerektirir 
 
-- Anlık çalışmaları ise değişkenlerin sadece anlık görüntüsünü sunması ve zaman içerisinde bilgi vermemesi gibi dezavantajlarına karşı düşük maliyet ve az emek gerektirir.
+- anlık çalışmaları ise değişkenlerin sadece anlık görüntüsünü sunması ve zaman içerisinde bilgi vermemesi gibi dezavantajlarına karşı düşük maliyet ve az emek gerektirir.
 
 
 ---
 ## Kavramsal ve Ampirik
 
 
-- Kavramsal araştırmacılar çoğunlukla felsefeciler ve düşünürler tarafından kullanılır bu araştırmalarda amaç alanyazındaki çalışmalara ait bulguları ve mevcut teorileri kullanarak yeni bir bakış açısı ortaya koymak ve fikirler üretmektir 
+- kavramsal araştırmacılar çoğunlukla felsefeciler ve düşünürler tarafından kullanılır bu araştırmalarda amaç alanyazındaki çalışmalara ait bulguları ve mevcut teorileri kullanarak yeni bir bakış açısı ortaya koymak ve fikirler üretmektir 
 
-- Ampirik çalışmaları ise veriye dayanır.
+- ampirik çalışmaları ise veriye dayanır.
 
 
 ---
@@ -148,8 +168,10 @@ yapılır.
 
 
 ---
-## Araştırmaların Sınıflandırılması .huge[`r emo::ji("stats")`]
--   Nicel ve Nitel Araştırmalar
+## Araştırmaların Sınıflandırılması .huge[📊]
+   
+- Varsayımları doğrulama ya da mevcut durumu belirleme yaklaşımlarına göre **nicel-nitel** araştırmalar olarak gruplandırılabilir
+
   -   Nicel Araştırmalar
       -   Tarama Araştırması
           - Nedensel Karşılşatırma
@@ -162,32 +184,8 @@ yapılır.
       -   Durum Araştırması
 -   Karma Yöntem Araştırmaları
 
----
-## Bilimsel Araştırmaların Sınıflanması
 
-- Yapıldıkları çevreye göre, **labrotuvar ve saha (alan)** araştırmaları;
 
-- Düzeylerine göre **kuramsal ve uygulamalı** araştırmalar; 
-
-- Yönteme göre tarihi, **betimsel ve deneysel** araştırmalar; 
-
-- Kontrol özelliğine göre **survey ve deneysel** araştırmalar
-
-- Varsayımları doğrulama ya da mevcut durumu belirleme yaklaşımlarına göre **nicel-nitel** araştırmalar olarak gruplandırılabilir
-
----
-## Bilimsel Araştırmaların Sınıflanması
-
-- Farklı sınıflamalar bulunmaktadır (Büyüköztürk, Çakmak, Akgün, Karadeniz, & Demirel, 2008; Karasar, 2003; Şekercioğlu, 2011/2015)
-
-- Uygulama/Düzey açısından
-  - Temel - Uygulamalı
-  
-- Amaç açısından 
-    - Betimsel, İlişkisel, Açımlayıcı/Keşfedici
-    
-- Kullanılan inceleme yöntemine/ verinin türüne göre 
-     - Nitel, Nicel
 
 
 
@@ -200,7 +198,210 @@ yapılır.
 
 - **Nitel araştırmalar,** durumları ve olayları katılımcıların bakış açılarından anlamaya çalışır. **Katılımcıların doğrudan araştırmanın içinde** yer alması söz konusudur.
 
-- Nitel araştırmalar için nasıl ne şekilde sorularına cevap arar.
+- Nitel araştırmalarniçin nasıl ne şekilde sorularına cevap arar.
+
+---
+## Araştırmalarda iç ve dış geçerlik
+
+- Araştırmanın sonuçlarının deneklerin seçildiği büyük gruplara, **evrene genellenebilirlik derecesi dış geçerliktir.**
+
+- **İç geçerlik**, yordayıcı ilişkilerin analizinde ve özellikle deneysel çalışmalarda esastır.
+
+- İç geçerlik, **bağımlı değişkende gözlenen değişmelerin, bağımsız değişkenle açıklanabilirlik derecesidir.**
+
+---
+##  Nicel Araştırmalar
+
+- Tarama Araştırması
+
+- Korelasyonel Araştırma
+
+- Nedensel Karşılaştırma Araştırması
+
+---
+.center[
+## Tarama Araştırması
+]
+.pull-left[
+- **Belirli özelliklerin** belirlenmesini amaçlar,
+  - Anket
+  - görüşme
+  - Yüzde
+  - frekans
+]
+.pull-right[
+- Katılımcıların;
+  - Demografik özeliklerinin,
+  - Görüşlerinin, 
+  - Yeterliklerinin,
+  - Davranışlarının  belirlenmeye çalışıldığı araştırmalardır.
+
+]
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+
+.center[
+- **EGT204-05 şubesindeki öğrencilerin en çok sevdikleri kitap türü nedir?**
+]
+
+---
+## Tarama Araştırması
+
+&lt;img src="img/tarama.PNG" width="50%" style="display: block; margin: auto;" /&gt;
+
+---
+## Tarama araştırmalarının özellikleri
+
+- Tarama deseni, araştırma sonuçlarının genelleneceği büyük grup olarak tanımlanan hedef kitle (evren) üzerinde veya evreni temsilen seçilen örneklem üzerinde çalışılır. 
+
+- Verilerin toplanmasında temelde **anket kullanılmakla birlikte testler, ölçekler, yapılandırılmış gözlem formları ve kontrol listelerinden de yararlanılır.**
+
+
+---
+## Tarama araştırmalarının sınıflandırılması
+
+- Anlık inceleme
+    - Anlık
+  
+- Zamana bağlı değişimin incelenmesi
+  - **Kesitsel:** Örneklemin gelişimsel olarak bir bütünü tamamlayacak şekilde birbirini tümleyen kesitlerden seçilmesi ve  verilerin tüm gruplardan aynı zamanda bir defa da toplanması ve analizi.
+  - **Boylamsal:** Aynı örneklem üzerinde zamana bağlı ölçümlerin alınması ve gelişimin analizi.
+
+- Geçmişe dönük inceleme
+  - Katılımcıların geçmiş deneyimlerine dayalı olarak önceden yaşanmış olayların, geçmişin incelenmesi.
+
+---
+## Tarama araştırmalarında evrenin tanımlanması ve örneklemin seçimi
+
+- Evren (hedef kitle) tanımlanır. 
+- Evreni temsil edecek şekilde örneklem seçilir ve araştırma bu örneklem üzerinde yürütülür.
+
+- Araştırma sonuçları evrene genellenir.
+
+---
+## Tarama araştırmalarında verilerin toplanması ve  analizi
+
+- Odak nicel verilerin toplanmasıdır. Bununla birlikte ek olarak nitel veriler de toplanabilir. 
+
+- Toplanan nicel veriler, uygun istatistik teknikler kullanılarak analiz edilir.
+
+---
+## Tarama araştırmalarında dış ve iç geçerliliği etkileyen durumlar
+
+- **Denek kaybı (anketi cevaplamama, eksik cevap), **
+
+- Verilerin toplandığı ortamın ve şartların katılımcıların **samimi görüşlerini belirtmelerine olanak tanımaması,** 
+
+- Veri toplayan kişinin tutumu **(cevaplama davranışını etkileme)**
+
+- Cevaplanacak soru sayısının **çok fazla olması, yönergenin anlaşılır olmaması gibi yapısal sorunlara bağlı cevaplama motivasyonunu düşmesi. **
+
+---
+## Korelasyonel Araştırması
+
+- İki ya da daha fazla değişen arasındaki **ilişkinin** belirlenmesi amaçlar,
+
+- Araştırmacı ölçme araçlarını uygulamak dışında herhangi bir **müdahale ya da yönlendirme yapmaz,**
+
+
+- **EGT204-04 şubesindeki öğrencilerin en çok sevdikleri kitap türü ile başarı puanları arasıda nasıl bir ilişki vardır?**
+
+
+---
+## Örnek korelasyonel araştırmalar…
+
+- Öğrencilerin **öğrenme stratejilerini kullanma sıklığı, sosyal etkinliklerine katılma sıklığı ve başarıları arasındaki ilişkinin incelenmesi.**
+
+--
+
+- Ailelerin **okulun eğitsel etkinliklerine ilgisi ve öğretmenle iletişim değişkenleri,  çocukların performansları üzerindeki etkisinin incelenmesi.**
+
+--
+
+- **Liselerin yaşı, yönetici tutumları, bir öğretmene düşen öğrenci sayısı ve geçmişteki başarı durumu değişkenlerinin, liselerdeki suç oranını açıklama gücünün incelenmesi.**
+
+---
+## Korelasyonel araştırmaların  odağı
+
+- Karşılıklı **ilişkileri anlama,**
+
+- Bir veya daha çok bağımsız değişkene dayalı olarak bir bağımlı değişkenin , **açıklanmaya (yordanmaya) çalışılması.** 
+
+- Bu tür araştırmalarda, **sonuçlar nedensellik bağlamında yorumlanamaz.**
+
+---
+## Korelasyonel araştırmaların türleri
+- **Keşfedici korelasyonel** araştırmalar
+    - Değişkenler arasındaki karşılıklı ilişkiler belirlenmeye çalışılır.
+
+- **Yordayıcı korelasyonel** araştırmalar
+  - Değişkenler arası ilişkinin belirlenip bir veya daha fazla değişkenin bilinen değerinden diğer bir değişkenin bilinmeyen bir değeri belirlenmeye çalışılır.
+  - Burada, gerçekte, oluşturulan matematiksel bir model (Y=bx+a) vardır ve o test edilir. 
+
+  - Sadece **doğrudan etkilere** ve/veya **dolaylı etkilere** dayalı olmak üzere iki türü vardır.
+
+---
+## Korelasyonel Çalışmalar_1
+
+&lt;img src="img/korarastirma.PNG" width="70%" style="display: block; margin: auto;" /&gt;
+
+
+- Olası çıkarımlar:
+- Başarıyı artırmak istiyorsan tutum ve özyeterliliği unutma, dikkate al. 
+- Özyeterliliği artırarak başarıyı artırabilirsin
+- Tutumla başarı arasındaki ilişki özyeterlilik aracılığıyla ortaya çıkmış olabilir.
+
+
+---
+## Korelasyonel Çalışmalar_2
+
+&lt;img src="img/korarastirma_2.PNG" width="70%" style="display: block; margin: auto;" /&gt;
+
+---
+## Korelasyonel Çalışmalar_3
+
+&lt;img src="img/korarastirma_3.PNG" width="70%" style="display: block; margin: auto;" /&gt;
+
+---
+## Korelasyonel araştırmalarda evren ve örneklem seçimi
+
+- Örneklemde yer alacak bireylerin araştırmanın değişkenleriyle ilgili ölçülebilir özelliklere sahip olmaları ve seçkisiz seçilmeleri,
+
+- Elde edilecek veri setleri için örneklem büyüklüğünün en az 30 olması hedeflenmelidir.
+
+---
+## Korelasyonel araştırmalarda verilerin toplanması ve analizi
+
+- Nicel verilerin toplanmasını gerektirir. Bunun için anket, test, ölçek, kontrol listeleri kullanılabilir.
+
+- Keşfedici korelasyonel desenlerde verilere uygun korelayon katsayıları (Pearson, Spearman, Phi, Bağımlılık vb.),
+
+- Yordayıcı korelasyonel desenlerde regresyon analizleri, yol analizleri kullanılır.
+
+---
+## Korelasyonel desenlerde iç ve dış geçerlik
+
+- Denek kaybı
+
+- Verilerin toplandığı ortamların ve veri toplayan kişilerin (anketör vb.) farklılaşması. 
+
+- Ölçme aracı yapısal sorunlar, cevaplama motivasyonun düşüklüğü
+ 
+- Bu tür etkiyi kontrol etmenin yollarından biri yeterince büyük ve seçkisiz bir örneklemin belirlenmesidir.
+
+
+---
+## Nedensel Karşılaştırma  Araştırması
+
+- İnsan grupları arasındaki **farklılıkların** nedenlerini ve sonuçlarını koşullar ve katılımcılar üzerinde herhangi bir müdahale olmaksızın belirlemeyi amaçlar, 
+
+- Ancak farklılığa sebep olan faktörün neden olduğunu **kesin bir ifade ile söyleyemez. Olası** nedenleri belirleme konusunda değerlidir. 
+
+- **EGT204-04 şubesindeki öğrencilerin en çok sevdikleri kitap türleri bölümlere göre farklılık göstermekte midir?**
+
+
 
 ---
 
@@ -239,18 +440,24 @@ yapılır.
 
 - Nicel araştırmalarda veriler evreni temsil edecek biçimde seçilen bir örneklemden elde edilirler. 
 
-- Bu durum, araştırma sonuçlarının evrene genellenebilmesini sağlar. Nitel araştırmalar ise, genellikle örneklem seçme kurallarına uyulmaksızın, küçük gruplar üzerinde yürütülür. Nitel araştırma sonuçları çalışma grubu hakkında derinlemesine bilgi verirler ama araştırma sonuçları evrene genellenemez. 
+- Bu durum, araştırma sonuçlarının evrene genellenebilmesini sağlar. Nitel araştırmalar ise, genellikle örneklem seçme kurallarına uyulmaksızın, küçük gruplar üzerinde yürütülür. 
+
+- Nitel araştırma sonuçları çalışma grubu hakkında derinlemesine bilgi verirler ama araştırma sonuçları evrene genellenemez. 
 
 ---
 ## Nitel Araştırmalar
 
-- Nicel araştırmalara tipik örnek deneysel araştırmalar; nitel araştırmalara tipik örnek ise durum çalışması (case studies) dır. Bu iki tipik araştırma dışında, nicel-nitel boyutunda pek çok araştırma türü yer alabilir. Her iki araştırma yaklaşımının özelliklerini taşıyan araştırmalar da olabilir. Betimsel araştırmalar, başlangıçta bir hipotezi olmaması nedeniyle nitel araştırmalara benzer. Ancak araştırmacı, tanımladığı bir evrenden uygun bir örneklem seçerek araştırmasını yürütürse, araştırması nicel bir boyut taşır. 
+- Nicel araştırmalara tipik örnek deneysel araştırmalar; nitel araştırmalara tipik örnek ise durum çalışması (case studies) dır. 
+
+- Bu iki tipik araştırma dışında, nicel-nitel boyutunda pek çok araştırma türü yer alabilir. Her iki araştırma yaklaşımının özelliklerini taşıyan araştırmalar da olabilir. 
+
+- Betimsel araştırmalar, başlangıçta bir hipotezi olmaması nedeniyle nitel araştırmalara benzer. Ancak araştırmacı, tanımladığı bir evrenden uygun bir örneklem seçerek araştırmasını yürütürse, araştırması nicel bir boyut taşır. 
 
 ---
 ## Nitel Araştırmalar
 
 
-- Yıldırım ve Şimşek (2006) nitel araştırmayı “gözlem, görüşme ve doküman analizi gibi nitel veri toplama yöntemlerinin kullanıldığı, algıların ve olayların doğal ortamda gerçekçi ve bütüncü bir biçimde ortaya konulmasına yönelik nitel bir sürecin izlendiği araştırma” olarak tanımlamaktadır (s.39). 
+- Yıldırım ve Şimşek (2006) nitel araştırmayı **gözlem, görüşme ve doküman analizi gibi nitel veri toplama yöntemlerinin kullanıldığı, algıların ve olayların doğal ortamda gerçekçi ve bütüncü bir biçimde ortaya konulmasına yönelik nitel bir sürecin izlendiği araştırma** olarak tanımlamaktadır (s.39). 
 
 ---
 ##  Nicel ve Nitel Araştırmanın Karşılaştırılması
@@ -296,213 +503,112 @@ yapılır.
 |yansız ve nesnel | öznel bakış açısı olan ve empatik |
 
 ---
-## Nicel Araştırmalar
+## Nitel Araştırmalar
 
-- Tarama
-- Nedensel Karşılşatırma 
-- Korelasyon
-- Deneysel 
-- Meta Analiz
----
-.center[
-## Tarama Araştırması
-]
-.pull-left[
-- **Belirli özelliklerin** belirlenmesini amaçlar,
-  - Anket
-  - görüşme
-  - Yüzde
-  - frekans
-]
-.pull-right[
-- Katılımcıların;
-  - Demografik özeliklerinin,
-  - Görüşlerinin, 
-  - Yeterliklerinin,
-  - Davranışlarının  belirlenmeye çalışıldığı araştırmalardır.
+- Etnografik Araştırma
 
-]
-<br>
-<br>
-<br>
+- Tarihi Araştırma
 
+- Eylem Araştırması
 
-.center[
-- **Öğrencilerin sosyal medya kullanım alışkanları cinsiyete göre değişmekte midir?**
-]
+- Olgubilim Çalışmaları
+
+- Kuram Oluşturma Çalışmaları
+
+- Durum Çalışması
+
+- Anlatı Çalışması
 
 ---
-## Tarama Araştırması
+## Etnografik Araştırma
 
-```{r echo=FALSE, fig.align='center',out.width="50%"}
-knitr::include_graphics("img/tarama.PNG")
-```
+- **Doğrudan** gözlemlemek ve bu gözlemlere dayanarak betimleme yapmak,
+Gözlem, görüşme
+
+## Tarihi Araştırma
+
+- Geçmişte ne oldu?,
+
+- **Dönemin dokümanlarının** okunması ve o zamanlarda yaşamış **kişilerle görüşmeler** yapılması,
+Doğruluğun sağlanması önemli bir sorun
 
 ---
-## Tarama araştırmalarının özellikleri
+## Eylem Araştırması
 
-- Tarama deseni, araştırma sonuçlarının genelleneceği büyük grup olarak tanımlanan hedef kitle (evren) üzerinde veya evreni temsilen seçilen örneklem üzerinde çalışılır. 
+- Belirli bir durumun **koşullarını değiştirmeye** yarayacak bilgiyi elde etmek amaçlanır,
 
-- Verilerin toplanmasında temelde **anket kullanılmakla birlikte testler, ölçekler, yapılandırılmış gözlem formları ve kontrol listelerinden de yararlanılır.**
+- Deneklerin çalışmaya **aktif** bir şekilde katılmalarına önem verilir ve **katılımcılar/taraflar** olarak adlandırılırlar. 
+
+- Genellemelere en az önem veren araştırmadır. 
+
+
+- Sınıfındaki öğrencilerin bilimsel süreç becerilerinin yeterli düzeyde gelişmediğini gözlemlemek isteyen bir öğretmenin bu soruna çözüm olarak kullanabileceği en uygun yöntemi bulması!!
 
 
 ---
-## Tarama araştırmalarının sınıflandırılması
+## Olgubilim Çalışmaları
 
-- Anlık inceleme
-    - Anlık
-  
-- Zamana bağlı değişimin incelenmesi
-  - **Kesitsel:** Örneklemin gelişimsel olarak bir bütünü tamamlayacak şekilde birbirini tümleyen kesitlerden seçilmesi ve  verilerin tüm gruplardan aynı zamanda bir defa da toplanması ve analizi.
-  - **Boylamsal:** Aynı örneklem üzerinde zamana bağlı ölçümlerin alınması ve gelişimin analizi.
+- Olgulara odaklanılarak **yaşantıları** ve **anlamları** ortaya çıkarmayı amaçlar,
 
-- Geçmişe dönük inceleme
-  - Katılımcıların geçmiş deneyimlerine dayalı olarak önceden yaşanmış olayların, geçmişin incelenmesi.
+- Olguyu yaşayan, onu dışa vurabilecek veya yansıtabilecek bireyler/gruplar,
 
+- **Kesin** ve **genellenebilir** sonuçlar elde edilemeyebilir,
+
+
+- Olgubilim Çalışmaları
+Kız öğrencilerin düşük okullaşma oranı - Olgu
+	
+	- Coğrafik bölge,
+	- Sosyo-ekonomik durum,
+	- Terk edilen sınıf düzeyi, 	
+	- Başarı durumu 
+	
+---
+## Olgubilim Çalışmaları
+
+- Olgubilim Çalışmaları
+
+Kız öğrencilerin düşük okullaşma oranı 
+
+- Olgu
+	
+- Başarılı öğrenciler neden okulu terk eder?
+
+- İlköğretim beşinci sınıftan sonra terk etme oranı 	neden artar?
+
+- Aile bu konuda ne düşünüyor?
 
 ---
+## Kuram Oluşturma Çalışmaları
 
-## Genel Tarama Araştırmaları
 
-- tanılayıcı amaç taşıyan araştırmalardır. 
+- Sistematik olarak verilerin toplanması ve analiz edilmesi sonucu bir kuram geliştirme çalışmasıdır,
 
-- Üniversite öğrencilerin sosyal medyada geçirdikleri süre ne kadardır?
-- Güvenlik görevlilerinin eğitim düzeyleri nasıl dağılmaktadır?
-
----
-## Nedensel Karşılaştırma  Araştırması
-
-- İnsan grupları arasındaki **farklılıkların** nedenlerini ve sonuçlarını koşullar ve katılımcılar üzerinde herhangi bir müdahale olmaksızın belirlemeyi amaçlar, 
-
-- Bu araştırmalarda bağımsız değişekn kategoriktit.  
-- Ancak farklılığa sebep olan faktörün neden olduğunu **kesin bir ifade ile söyleyemez. Olası** nedenleri belirleme konusunda değerlidir. 
-
-- **Öğrencilerin sosyal medya kullanma alışkınları  bölümlere göre farklılık göstermekte midir?**
+- Süreçte toplanan veriler analiz edilir, ortaya çıkan kavramlar, olgular ve süreçler daha sonraki veri topplama aşamasına dahil edilir. 
 
 ---
-## Tarama araştırmalarında evrenin tanımlanması ve örneklemin seçimi
+## Durum (Örnek Olay) Çalışması
 
-- Evren (hedef kitle) tanımlanır. 
-- Evreni temsil edecek şekilde örneklem seçilir ve araştırma bu örneklem üzerinde yürütülür.
+a. Bir olayı meydana getiren ayrıntıları tanımlamak ve görmek,
 
-- Araştırma sonuçları evrene genellenir.
+b. Bir olaya ilişkin olası açıklamaları geliştirmek,
 
----
-## Tarama araştırmalarında verilerin toplanması ve  analizi
-
-- Odak nicel verilerin toplanmasıdır. Bununla birlikte ek olarak nitel veriler de toplanabilir. 
-
-- Toplanan nicel veriler, uygun istatistik teknikler kullanılarak analiz edilir.
+c. Bir olayı değerlendirmek amacıyla kullanılır (Gall, Borg ve Gall, 1996; akt: Büyüközütrk vd. 2020). 
 
 ---
-## Tarama araştırmalarında dış ve iç geçerliliği etkileyen durumlar
+## Durum (Örnek Olay) Çalışması
 
-- **Denek kaybı (anketi cevaplamama, eksik cevap), **
-
-- Verilerin toplandığı ortamın ve şartların katılımcıların **samimi görüşlerini belirtmelerine olanak tanımaması,** 
-
-- Veri toplayan kişinin tutumu **(cevaplama davranışını etkileme)**
-
-- Cevaplanacak soru sayısının **çok fazla olması, yönergenin anlaşılır olmaması gibi yapısal sorunlara bağlı cevaplama motivasyonunu düşmesi. **
+Okul müdürünün, Okul Aile Birliğinin çalışmaları sırasında yaşadıkları sorunları tespit ederek bu birliğin çalışmalarının etkililiğini arttırmak istemesi. 
 
 ---
-## Korelasyonel Araştırması
+## Anlatı Çalışması
 
-- İki ya da daha fazla değişen arasındaki **ilişkinin** belirlenmesi amaçlar,
+- **Yaşanmış hikayeler** aracılığıyla insanarın bir konu ya da duruma ilişkin deneyimleri incelenir,
 
-- Araştırmacı ölçme araçlarını uygulamak dışında herhangi bir **müdahale ya da yönlendirme yapmaz,**
+- Otobiyografi, biyografi, 
 
+- Deneyimler **yazılı ya da sözlü** olarak **hikaye edilerek** toplanır.  
 
-- **üniversite öğrencilerin sosyla medyada geçridikleri zaman ile genel başarı puanları arasıda nasıl bir ilişki vardır?**
-
-
----
-## Örnek korelasyonel araştırmalar…
-
-- Öğrencilerin **öğrenme stratejilerini kullanma sıklığı, sosyal etkinliklerine katılma sıklığı ve başarıları arasındaki ilişkinin incelenmesi.**
-
---
-
-- Ailelerin **okulun eğitsel etkinliklerine ilgisi ve öğretmenle iletişim değişkenleri,  çocukların performansları üzerindeki etkisinin incelenmesi.**
-
---
-
-- **Liselerin yaşı, yönetici tutumları, bir öğretmene düşen öğrenci sayısı ve geçmişteki başarı durumu değişkenlerinin, liselerdeki suç oranını açıklama gücünün incelenmesi.**
-
----
-## Korelasyonel araştırmaların  odağı
-
-- Karşılıklı **ilişkileri anlama,**
-
-- Bir veya daha çok bağımsız değişkene dayalı olarak bir bağımlı değişkenin , **açıklanmaya (yordanmaya) çalışılması.** 
-
-- Bu tür araştırmalarda, **sonuçlar nedensellik bağlamında yorumlanamaz.**
-
----
-## Korelasyonel araştırmaların türleri
-- **Keşfedici korelasyonel** araştırmalar
-    - Değişkenler arasındaki karşılıklı ilişkiler belirlenmeye çalışılır.
-
-- **Yordayıcı korelasyonel** araştırmalar
-  - Değişkenler arası ilişkinin belirlenip bir veya daha fazla değişkenin bilinen değerinden diğer bir değişkenin bilinmeyen bir değeri belirlenmeye çalışılır.
-  - Burada, gerçekte, oluşturulan matematiksel bir model (Y=bx+a) vardır ve o test edilir. 
-
-  - Sadece **doğrudan etkilere** ve/veya **dolaylı etkilere** dayalı olmak üzere iki türü vardır.
-
----
-## Korelasyonel Çalışmalar_1
-
-```{r echo=FALSE, fig.align='center',out.width="70%"}
-knitr::include_graphics("img/korarastirma.PNG")
-```
-
-
-- Olası çıkarımlar:
-- Başarıyı artırmak istiyorsan tutum ve özyeterliliği unutma, dikkate al. 
-- Özyeterliliği artırarak başarıyı artırabilirsin
-- Tutumla başarı arasındaki ilişki özyeterlilik aracılığıyla ortaya çıkmış olabilir.
-
-
----
-## Korelasyonel Çalışmalar_2
-
-```{r echo=FALSE, fig.align='center',out.width="70%"}
-knitr::include_graphics("img/korarastirma_2.PNG")
-```
-
----
-## Korelasyonel Çalışmalar_3
-
-```{r echo=FALSE, fig.align='center',out.width="70%"}
-knitr::include_graphics("img/korarastirma_3.PNG")
-```
-
----
-## Korelasyonel araştırmalarda evren ve örneklem seçimi
-
-- Örneklemde yer alacak bireylerin araştırmanın değişkenleriyle ilgili ölçülebilir özelliklere sahip olmaları ve seçkisiz seçilmeleri,
-
-- Elde edilecek veri setleri için örneklem büyüklüğünün en az 30 olması hedeflenmelidir.
-
----
-## Korelasyonel araştırmalarda verilerin toplanması ve analizi
-
-- Nicel verilerin toplanmasını gerektirir. Bunun için anket, test, ölçek, kontrol listeleri kullanılabilir.
-
-- Keşfedici korelasyonel desenlerde verilere uygun korelayon katsayıları (Pearson, Spearman, Phi, Bağımlılık vb.),
-
-- Yordayıcı korelasyonel desenlerde regresyon analizleri, yol analizleri kullanılır.
-
----
-## Korelasyonel desenlerde iç ve dış geçerlik
-
-- Denek kaybı
-
-- Verilerin toplandığı ortamların ve veri toplayan kişilerin (anketör vb.) farklılaşması. 
-
-- Ölçme aracı yapısal sorunlar, cevaplama motivasyonun düşüklüğü
- 
-- Bu tür etkiyi kontrol etmenin yollarından biri yeterince büyük ve seçkisiz bir örneklemin belirlenmesidir.
 
 
 ---
@@ -699,7 +805,7 @@ Deneysel modelleri kullanmak için iki önemli sebep vardır:
 
 | **Grup** | **Öntest**           | **İşlem**                     | **Sontest**          |
 |---|---|---|---|
-| $G$      | $O_{1}$              | $X$                           | $O_{2}$              |
+| `\(G\)`      | `\(O_{1}\)`              | `\(X\)`                           | `\(O_{2}\)`              |
 |          | Akademik Uyum Ölçeği | 10 Haftalık Grupla Danışma    | Akademik Uyum Ölçeği |
 |          |                      |                               |                      |
 |          | (Bağımlı değ.)       | (Müdahale)                    | (Bağımlı değ.)       |
@@ -715,10 +821,10 @@ Deneysel modelleri kullanmak için iki önemli sebep vardır:
 
 | **Grup**  | **İşlem**             | **Sontest**                      |
 |---|---|---|
-| $D$       | $X$                   | $O_{1}$                          |
+| `\(D\)`       | `\(X\)`                   | `\(O_{1}\)`                          |
 |           |                       |                                  |
 | (Deney)   | (Performans görevi)   | (Problem çözme becerileri testi) |
-| $K$       | (Geleneksel uygulama) | $O_{2}$                         |
+| `\(K\)`       | (Geleneksel uygulama) | `\(O_{2}\)`                         |
 |           |                       |                                  |
 | (Kontrol) |                       | (Problem çözme becerileri testi) |
 
@@ -734,10 +840,10 @@ Seçkisiz atamanın olmaması ve öntest uygulanmaması nedeniyle gözlenen fark
 
 | **Grup**  | **Öntest**                       | **İşlem**             | **Sontest**                      |
 |---|---|---|---|
-| $D$       | $O_{1}$                          | $X$                   | $O_{3}$                          |
+| `\(D\)`       | `\(O_{1}\)`                          | `\(X\)`                   | `\(O_{3}\)`                          |
 |           |                                  |                       |                                  |
 | (Deney)   | (Problem çözme becerileri testi) | (Performans görevi)   | (Problem çözme becerileri testi) |
-| $K$       | $O_{2}$                          |            | $O_{4}$                         |
+| `\(K\)`       | `\(O_{2}\)`                          |            | `\(O_{4}\)`                         |
 |           |                                  |                       |                                  |
 | (Kontrol) | (Problem çözme becerileri testi) |     (Geleneksel uygulama)                  | (Problem çözme becerileri testi) |
 
@@ -766,16 +872,16 @@ Deneklerin seçkisiz atanmamasından dolayı modelin iç ve dış geçerlik aç�
 
 | **Grup** | **Öntest** | **İşlem** | **Sontest** |
 |----------|------------|-----------|-------------|
-|   $D$    |  $O_{1}$   |    $X$    |   $O_{3}$   |
-|   $K$    |  $O_{2}$   |           |  $O_{4}$    |
+|   `\(D\)`    |  `\(O_{1}\)`   |    `\(X\)`    |   `\(O_{3}\)`   |
+|   `\(K\)`    |  `\(O_{2}\)`   |           |  `\(O_{4}\)`    |
 
 
 ---
 
 | **Grup** | **İşlem** | **Sontest** |
 |---|---|---|
-|   $D$    |    $X$    |   $O_{1}$   |
-|   $K$    |           |  $O_{2}$   |
+|   `\(D\)`    |    `\(X\)`    |   `\(O_{1}\)`   |
+|   `\(K\)`    |           |  `\(O_{2}\)`   |
 
 : Sontest eşleştirilmiş kontrol gruplu model
 
@@ -787,7 +893,7 @@ belli değişkenler üzerinden eşleştirilmeye çalışılır. Eşleştirilen b
 
 | **Grup** | **İşlem Öncesi Ölçmeler**       | **İşlem** | **İşlem Sonrası Ölçümler**      |
 |----------|---------------------------------|-----------|---------------------------------|
-| G        | $O_{1}$ $O_{2}$ $O_{3}$ $O_{4}$ | X         | $O_{5}$ $O_{6}$ $O_{7}$ $O_{8}$ |
+| G        | `\(O_{1}\)` `\(O_{2}\)` `\(O_{3}\)` `\(O_{4}\)` | X         | `\(O_{5}\)` `\(O_{6}\)` `\(O_{7}\)` `\(O_{8}\)` |
 
 
 - Bu modelde tek bir grup üzerinde X işleminin etkisini test etmek için, 
@@ -807,8 +913,8 @@ ve sonraki ölçümlerde kararlılık göstermesi, işlemin bağımlı değişke
 
 | **Grup** | **Öntest** | **İşlem** | **Sontest** |
 |---|---|---|---|
-|   $D$    |  $O_{1}$   |    $X$    |   $O_{3}$   |
-|   $K$    |  $O_{2}$  |           |  $O_{4}$   |
+|   `\(D\)`    |  `\(O_{1}\)`   |    `\(X\)`    |   `\(O_{3}\)`   |
+|   `\(K\)`    |  `\(O_{2}\)`  |           |  `\(O_{4}\)`   |
 
 
 
@@ -827,8 +933,8 @@ ve sonraki ölçümlerde kararlılık göstermesi, işlemin bağımlı değişke
 
 | **Grup** | **İşlem** | **Sontest** |
 |:--------:|:---------:|:-----------:|
-|   $D$    |    $X$    |   $O_{1}$   |
-|   $K$    |           |  $O_{2}$   |
+|   `\(D\)`    |    `\(X\)`    |   `\(O_{1}\)`   |
+|   `\(K\)`    |           |  `\(O_{2}\)`   |
 
 
 - Bu testin öntest-sontest kontrol gruplu seçkisiz modelden tek farkı, uygulama öncesinde bağımlı değişkene ait ölçümlerin elde edilmemesi yani öntestin yapılmamasıdır.
@@ -905,131 +1011,6 @@ ve sonraki ölçümlerde kararlılık göstermesi, işlemin bağımlı değişke
 
     Bu desende, bağımsız değişken üzerinde etkisi incelenen en az iki bağımsız değişken vardır. Bunlardan biri farklı deneysel işlem koşullarını, diğeri ise deneklerin farklı zamanlardaki tekrarlı ölçümlerini tanımlar. Tekrarlı ölçümler eşleştirilmiş gruplar kullanılarak veya tüm koşulların aynı deneklere uygulanarak da elde edilebilir. 
 
----
-## Meta Analiz
-
-- **Belirli bir amaca/konuya** yönelik yapılan araştırmaları birlikte inceleyip bir **senteze** ulaşılması amaçlanır,
-
----
-## Nitel Araştırmalar
-
-- Etnografik Araştırma
-
-- Tarihi Araştırma
-
-- Eylem Araştırması
-
-- Olgubilim Çalışmaları
-
-- Kuram Oluşturma Çalışmaları
-
-- Durum Çalışması
-
-- Anlatı Çalışması
-
----
-## Etnografik Araştırma
-
-- **Doğrudan** gözlemlemek ve bu gözlemlere dayanarak betimleme yapmak,
-Gözlem, görüşme
-
-- Eğitimde araştırma yöntemleri dersi ???
-
----
-## Tarihi Araştırma
-
-- Geçmişte ne oldu?,
-
-- **Dönemin dokümanlarının** okunması ve o zamanlarda yaşamış **kişilerle görüşmeler** yapılması,
-Doğruluğun sağlanması önemli bir sorun
-
----
-## Eylem Araştırması
-
-- Belirli bir durumun **koşullarını değiştirmeye** yarayacak bilgiyi elde etmek amaçlanır,
-
-- Deneklerin çalışmaya **aktif** bir şekilde katılmalarına önem verilir ve **katılımcılar/taraflar** olarak adlandırılırlar. 
-
-- Genellemelere en az önem veren araştırmadır. 
-
----
-## Eylem Araştırması
-
-
-- Sınıfındaki öğrencilerin bilimsel süreç becerilerinin yeterli düzeyde gelişmediğini gözlemlemek isteyen bir öğretmenin bu soruna çözüm olarak kullanabileceği en uygun yöntemi bulması!!
-
-
----
-## Olgubilim Çalışmaları
-
-- Olgulara odaklanılarak **yaşantıları** ve **anlamları** ortaya çıkarmayı amaçlar,
-
-- Olguyu yaşayan, onu dışa vurabilecek veya yansıtabilecek bireyler/gruplar,
-
-- **Kesin** ve **genellenebilir** sonuçlar elde edilemeyebilir,
-
----
-## Olgubilim Çalışmaları
-
-- Olgubilim Çalışmaları
-Kız öğrencilerin düşük okullaşma oranı - Olgu
-	
-	- Coğrafik bölge,
-	- Sosyo-ekonomik durum,
-	- Terk edilen sınıf düzeyi, 	
-	- Başarı durumu 
-	
----
-## Olgubilim Çalışmaları
-
-- Olgubilim Çalışmaları
-
-Kız öğrencilerin düşük okullaşma oranı 
-
-- Olgu
-	
-- Başarılı öğrenciler neden okulu terk eder?
-
-- İlköğretim beşinci sınıftan sonra terk etme oranı 	neden artar?
-
-- Aile bu konuda ne düşünüyor?
-
----
-## Kuram Oluşturma Çalışmaları
-
-
-- Sistematik olarak verilerin toplanması ve analiz edilmesi sonucu bir kuram geliştirme çalışmasıdır,
-
-- Süreçte toplanan veriler analiz edilir, ortaya çıkan kavramlar, olgular ve süreçler daha sonraki veri topplama aşamasına dahil edilir. 
-
----
-## Durum (Örnek Olay) Çalışması
-
-a. Bir olayı meydana getiren ayrıntıları tanımlamak ve görmek,
-
-b. Bir olaya ilişkin olası açıklamaları geliştirmek,
-
-c. Bir olayı değerlendirmek amacıyla kullanılır (Gall, Borg ve Gall, 1996; akt: Büyüközütrk vd. 2020). 
-
----
-## Durum (Örnek Olay) Çalışması
-
-Okul müdürünün, Okul Aile Birliğinin çalışmaları sırasında yaşadıkları sorunları tespit ederek bu birliğin çalışmalarının etkililiğini arttırmak istemesi. 
-
----
-## Anlatı Çalışması
-
-- **Yaşanmış hikayeler** aracılığıyla insanarın bir konu ya da duruma ilişkin deneyimleri incelenir,
-
-- Otobiyografi, biyografi, 
-
-- Deneyimler **yazılı ya da sözlü** olarak **hikaye edilerek** toplanır.  
-
----
-
-
-
-
 
  
 
@@ -1045,7 +1026,10 @@ Okul müdürünün, Okul Aile Birliğinin çalışmaları sırasında yaşadıkl
 - Nitel, nicel ya da karma veri toplama yöntemleri
 
 
+---
+## Meta Analiz
 
+- **Belirli bir amaca/konuya** yönelik yapılan araştırmaları birlikte inceleyip bir **senteze** ulaşılması amaçlanır,
 
 
 
@@ -1054,3 +1038,141 @@ Okul müdürünün, Okul Aile Birliğinin çalışmaları sırasında yaşadıkl
 ## Yararlanılan Kaynak
 Büyüköztürk, Ş., Çakmak E. K., Akgün, Ö. E., Karadeniz, Ş., Demirel, F. (2020). Eğitimde Bilimsel Araştırma Yöntemleri (28. Baskı), Ankara: Pegema Yayıncılık. 
 
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "solarized-light",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"ratio": "16:9",
+"slideNumberFormat": "<div class=\"progress-bar-container\">\n  <div class=\"progress-bar\" style=\"width: calc(%current% / %total% * 100%);\">\n  </div>\n</div>"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

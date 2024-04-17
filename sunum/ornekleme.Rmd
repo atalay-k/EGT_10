@@ -2,7 +2,7 @@
 title: "`r emo::ji('muscle')` EGİTİMDE ARAŞTIRMA YÖNTEMLERİ"
 subtitle: " <br> `r emo::ji('graph')` Örnekleme Yöntemleri"
 author: "<br> <br> `r emo::ji('woman_teacher')` Dr. Kübra ATALAY KABASAKAL <br> Hacettepe Üniversitesi"
-date: "2023-2024 GUZ <br> <br> <br> <br>`r emo::ji('e-mail')` katalay@hacettepe.edu.tr"
+date: "2023-2024  <br> <br> <br> <br>`r emo::ji('e-mail')` katalay@hacettepe.edu.tr"
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -57,21 +57,45 @@ style_duo_accent(
 ---
 ## Evren
   
-  
-  - **Evren**, araştırma sonusunda elde edilecek **sonuçların geçerli olacağı gruptur. **
-  
-  - Evren birimi, evrenin sınırlandırılmış bir parçasıdır.
+  - **Evren**, araştırma sonusunda elde edilecek **sonuçların geçerli olacağı gruptur. ** **Parametre, evreni betimlemek** için kullanılan değerlerdir. 
 
-- **Parametre, evreni betimlemek** için kullanılan değerlerdir. 
-
----
-## Evren
   
   - İlköğretim öğrencilerinin ders çalışma stratejileri ile ders başarıları arasında ilişki var mıdır?
-  
+    
+     - Hedef evren
+     
   - Ankara’daki ilköğretim beşinci sınıf öğrencilerinin ders çalışma stratejileri ile ders başarıları arasında ilişki var mıdır?
   
+    - UlaşılabilirEvren
   
+
+- **Hedef evren**, araştırmacının ulaşmak istediği, ancak ulaşması güç olan ve **ideal seçimini** yansıtan soyut evrendir.  **Ulaşılabilir evren**, araştırmacının ulaşabileceği, **gerçekçi seçimi** olan somut evrendir (Büyüköztürk vd., 2018)
+  
+---
+## Hedeflenen Evren ve Ulaşılabilir Evren 
+
+- **Araştırma problemi:** Bilgisayar destekli öğretimin Ankara'daki birinci ve ikinci sınıf öğrencilerinin okuma başarısına etkisi nasıldır?
+
+- **Hedeflenen evren:** Ankara'daki tüm birinci ve ikinci sınıf öğrenciler.
+
+- **Ulaşılabilir evren:** Ankara, Eryaman semtindeki tüm birinci ve ikinci sınıf öğrencileri.
+
+- **Örneklem:** Ankara, Eryaman’daki birinci ve ikinci sınıf çocukların yüzde onu.
+
+
+---
+## Hedeflenen Evren ve Ulaşılabilir Evren 
+
+
+- **Araştırma problemi:** İkinci sınıf öğretmen adaylarının eğitimde araştırma yöntemleri dersine karşı tutumları nasıldır?
+
+- **Hedeflenen evren:** Türkiye’de eğitim fakültelerine kayıtlı tüm ikinci sınıf öğrencileri.
+
+- **Ulaşılabilir evren:** Hacettepe Üniversitesi Eğitim Fakültesi’ne kayıtlı tüm ikinci sınıf öğrencileri.
+
+- **Örneklem:** Hacettepe Üniversitesi Eğitim Fakültesi’ne kayıtlı olanlardan seçilen yüz ikinci sınıf öğrencisi
+
+
 ---
 ## Evren
 
@@ -87,7 +111,7 @@ gibi nedenlerden bütünden belirli bir parça alınarak araştırma yürütmek 
   
 - **Örneklem**, çalışılan evrenden seçilen sınırlı bir parçadır. 
 
-- **Örnekleme**, evreni temsil edecek uygun örnekleri seçme sürecidir. 
+- **Örnekleme**, evreni temsil edecek uygun örneklemi seçme sürecidir. 
 
 - **Örnekleme birimi**, örneklemi oluşturmada **temel** alınan birim.
 
@@ -105,13 +129,6 @@ gibi nedenlerden bütünden belirli bir parça alınarak araştırma yürütmek 
 
 - Ayrıca, örnekleme türü, örneklem büyüklüğü ve bunun tahmininde kullanılan teknik, güven ve hata sınırlarının neler olduğu, gerekçeleriyle açıklanmalıdır. 
 
-
----
-## Hedeflenen Evren ve Ulaşılabilir Evren 
-
-- **Hedef evren**, araştırmacının ulaşmak istediği, ancak ulaşması güç olan ve **ideal seçimini** yansıtan soyut evrendir. 
-
-- **Ulaşılabilir evren**, araştırmacının ulaşabileceği, **gerçekçi seçimi** olan somut evrendir (Büyüköztürk vd., 2018)
 
 
 ---
@@ -137,6 +154,7 @@ Fricker’e (2008) göre;
 - Daha fazla geçerlik (akt: Şahin ve Karakuş, 2019). 
 
 ---
+
 ## Evren, Örnekleme ve Örneklem (Büyüköztürk vd, 2018)
   
 .pull-left[
@@ -153,6 +171,7 @@ knitr::include_graphics("img/Orneklem.PNG")
 
 
 ]
+
 ---
 ## Örnekleme Yöntemleri
 - **Seçkisizlik**, örneklemede temel alınan birimlerin örneklem için **seçilme olasılıklarının eşit olması**dır. Bu ilke, birimlerin örnekleme seçilme durumlarının **birbirinden bağımsız olmasıyla** da ilgilidir.
@@ -173,11 +192,11 @@ knitr::include_graphics("img/Orneklem.PNG")
 
 - Şirket çalışanlarının tümü olan 250 ismini bir şapkaya koyar, iyice karıştırır ve ardından görüşmek için 40 kişinin ismini çıkarır. 
 
-- Seçkisiz Örnekleme 
+    - Seçkisiz Örnekleme 
 
 - Şirket merkezine konum olarak yakın olan ofisteki 40 çalışan ile görüşme yapar. 
 
-- Seçkisiz Olmayan Örnekleme 
+    - Seçkisiz Olmayan Örnekleme 
 
 ---
 
@@ -276,6 +295,7 @@ knitr::include_graphics("img/basit seçkisiz.png")
 knitr::include_graphics("img/tabakalı.jpg")
 ```
 ]
+
 ---
 
 .pull-left[
@@ -295,6 +315,7 @@ knitr::include_graphics("img/tabakalı.jpg")
 knitr::include_graphics("img/tabakalı.jpg")
 ```
 ]
+
 ---
 
 .pull-left[
@@ -438,30 +459,6 @@ Eğitim alanında yapılan ölçek geliştirme makalelerini inceleyen bir araşt
 
 <!-- Yukarıdaki örnekler, bir popülasyonun herhangi bir boyutta olabileceğini ve onu diğer popülasyonlardan ayıran en az bir (ve bazen birkaç) özelliğe sahip olacağını ortaya koymaktadır. Bir popülasyonun her zaman belirli bir özelliğe (veya bir dizi özelliğe) sahip olan tüm bireyler olduğuna dikkat edin. Eğitim araştırmalarında, ilgilenilen nüfus genellikle belirli özelliklere sahip bir grup kişidir (öğrenciler, öğretmenler veya diğer bireyler). Ancak bazı durumlarda, nüfus bir grup sınıf, okul ve hatta tesisler olarak tanımlanabilir. -->
 
-
----
-## Hedeflenen Evren ve Ulaşılabilir Evren 
-
-- **Araştırma problemi:** Bilgisayar destekli öğretimin Ankara'daki birinci ve ikinci sınıf öğrencilerinin okuma başarısına etkisi nasıldır?
-
-- **Hedeflenen evren:** Ankara'daki tüm birinci ve ikinci sınıf öğrenciler.
-
-- **Ulaşılabilir evren:** Ankara, Eryaman semtindeki tüm birinci ve ikinci sınıf öğrencileri.
-
-- **Örneklem:** Ankara, Eryaman’daki birinci ve ikinci sınıf çocukların yüzde onu.
-
-
----
-## Hedeflenen Evren ve Ulaşılabilir Evren 
-
-
-- **Araştırma problemi:** İkinci sınıf öğretmen adaylarının eğitimde araştırma yöntemleri dersine karşı tutumları nasıldır?
-
-- **Hedeflenen evren:** Türkiye’de eğitim fakültelerine kayıtlı tüm ikinci sınıf öğrencileri.
-
-- **Ulaşılabilir evren:** Hacettepe Üniversitesi Eğitim Fakültesi’ne kayıtlı tüm ikinci sınıf öğrencileri.
-
-- **Örneklem:** Hacettepe Üniversitesi Eğitim Fakültesi’ne kayıtlı olanlardan seçilen yüz ikinci sınıf öğrencisi
 
 
 ---
