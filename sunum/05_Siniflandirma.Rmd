@@ -44,7 +44,7 @@ style_duo_accent(
   .hand[İçerik...]
 -  Araştırmaların Sınıflandırılması
 -   Nicel ve Nitel Araştırmalar
-
+- Deneysel Araştırmalar
 ---
 ## Araştırma deseni
 
@@ -70,15 +70,13 @@ style_duo_accent(
 - Farklı sınıflamalar bulunmaktadır (Büyüköztürk, Çakmak, Akgün, Karadeniz, & Demirel, 2008; Karasar, 2003; Şekercioğlu, 2011/2015)
 
 - Uygulama/Düzey açısından
-    - Temel
-    - Uygulamalı
+    - Temel,  Uygulamalı
+    
 - Amaç açısından 
-    - Betimsel, 
-    - İlişkisel
-    - Açımlayıcı/Keşfedici
+    - Betimsel, İlişkisel,  Açımlayıcı/Keşfedici
+    
 - Kullanılan inceleme yöntemine/ verinin türüne göre 
-     - Nitel
-     - Nicel
+     - Nitel, Nicel
 
 ---
 ## Araştırmaların Sınıflandırılması .huge[`r emo::ji("stats")`]
@@ -128,13 +126,13 @@ gibi bir hedefleri yoktur
 ---
 ## Anlık ve Boylamsal Araştırmaları
 
-- anlık araştırmalarda katılımcılardan tek bir anda veri toplanır 
+- Anlık araştırmalarda katılımcılardan tek bir anda veri toplanır 
 
 - boylamsal araştırmalarda ise aynı kişiler uzun bir süre takip edilir ve bu süre zarfında bireylerden belli aralıklarda birkaç kez veri toplanır 
 
 - hem boylamsal hem de anlık araştırmaların kendilerine göre birtakım güçlü ve zayıf yönleri vardır.
 
-- boylamsal araştırmaların en güçlü yanı incelenen olayın olgunun zaman içerisindeki değişimine dahi geçerliliği ve güvenilirliği yüksek sonuçlar üretebilmesidir.  fakat boylamsal çalışmalarda veri toplama işi zordur, fazla emek ve maliyet gerektirir 
+- boylamsal araştırmaların en güçlü yanı incelenen olayın olgunun zaman içerisindeki değişimine dahi geçerliliği ve güvenilirliği yüksek sonuçlar üretebilmesidir.  Fakat boylamsal çalışmalarda veri toplama işi zordur, fazla emek ve maliyet gerektirir 
 
 - anlık çalışmaları ise değişkenlerin sadece anlık görüntüsünü sunması ve zaman içerisinde bilgi vermemesi gibi dezavantajlarına karşı düşük maliyet ve az emek gerektirir.
 
@@ -143,9 +141,9 @@ gibi bir hedefleri yoktur
 ## Kavramsal ve Ampirik
 
 
-- kavramsal araştırmacılar çoğunlukla felsefeciler ve düşünürler tarafından kullanılır bu araştırmalarda amaç alanyazındaki çalışmalara ait bulguları ve mevcut teorileri kullanarak yeni bir bakış açısı ortaya koymak ve fikirler üretmektir 
+- Kavramsal araştırmacılar çoğunlukla felsefeciler ve düşünürler tarafından kullanılır bu araştırmalarda amaç alanyazındaki çalışmalara ait bulguları ve mevcut teorileri kullanarak yeni bir bakış açısı ortaya koymak ve fikirler üretmektir 
 
-- ampirik çalışmaları ise veriye dayanır.
+- Ampirik çalışmaları ise veriye dayanır.
 
 
 ---
@@ -206,10 +204,15 @@ yapılır.
 
 - Tarama Araştırması
 
-- Korelasyonel Araştırma
+  - Genel Tarama Araştırmaları
+  
+  - Korelasyonel Araştırma
 
-- Nedensel Karşılaştırma Araştırması
+  - Nedensel Karşılaştırma Araştırması
 
+- Deneysel Araştırmalar
+
+- Meta Analiz 
 ---
 .center[
 ## Tarama Araştırması
@@ -401,7 +404,7 @@ knitr::include_graphics("img/korarastirma_3.PNG")
 
 - **EGT204-04 şubesindeki öğrencilerin en çok sevdikleri kitap türleri bölümlere göre farklılık göstermekte midir?**
 
-
+- Bu araştırma türünde bağımsız değişken kategoriktir.
 
 ---
 
@@ -522,8 +525,7 @@ knitr::include_graphics("img/korarastirma_3.PNG")
 ---
 ## Etnografik Araştırma
 
-- **Doğrudan** gözlemlemek ve bu gözlemlere dayanarak betimleme yapmak,
-Gözlem, görüşme
+- Etnografya araştırmaları, bireylerin günlük deneyimlerini gözlemleyerek, bireylerle ve onlarla ilgili diğer kişilerle görüşme yaparak belgelenmeye dayanır ve amacı, bir durum, bir topluluk hakkında genel bir çerçeveye ulaşmaktır (Fraenkel, Wallen ve Hyun, 2012).
 
 ## Tarihi Araştırma
 
@@ -568,15 +570,13 @@ Kız öğrencilerin düşük okullaşma oranı - Olgu
 
 - Olgubilim Çalışmaları
 
-Kız öğrencilerin düşük okullaşma oranı 
-
-- Olgu
+Kız öğrencilerin düşük okullaşma oranı  - Olgu
 	
-- Başarılı öğrenciler neden okulu terk eder?
+  - Başarılı öğrenciler neden okulu terk eder?
 
-- İlköğretim beşinci sınıftan sonra terk etme oranı 	neden artar?
+  - İlköğretim beşinci sınıftan sonra terk etme oranı 	neden artar?
 
-- Aile bu konuda ne düşünüyor?
+  - Aile bu konuda ne düşünüyor?
 
 ---
 ## Kuram Oluşturma Çalışmaları
@@ -792,6 +792,8 @@ Deneysel modelleri kullanmak için iki önemli sebep vardır:
 
 ---
 # Zayıf Deneysel M.
+
+  Zayıf deneysel desenlerin ortak özelliği desende iç geçerliliği tehdit eden faktörlerin kontrol edilmemesi ve seçkisizliğin söz konusu olmamasıdır.
 
 -   Tek Grup Öntest - Sontest
 
