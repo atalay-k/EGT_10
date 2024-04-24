@@ -70,7 +70,6 @@ maddetur <- grViz("digraph{
     -   Envanter
     -   Test
 -   Çevirim için veri toplama araçları
--   **ODEV-III (++) Çevirim içi Anket Hazırlama**
 
 ---
 ## Veri Nedir?

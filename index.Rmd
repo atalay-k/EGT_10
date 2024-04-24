@@ -161,7 +161,6 @@ sizlere gelen bildirimleri takip ediniz.
 
 ## `r advdate(mon, 8)`:[Veri Toplama Araçları II](sunum/Veritoplama-nitel.html)
 
--   Anketler
 -   Gözlem formları
 -   Görüşme formları
 -   Çevirim için veri toplama araçları
